@@ -1,0 +1,4752 @@
+[
+    {
+      "nome": "Agueda",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.577,
+      "y": -8.446,
+      "restricoes": ["terrestre"],
+      "populacao": 47000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "AlbergariaAVelha", "tipo": "terrestre" },
+        { "destino": "Aveiro",             "tipo": "terrestre" },
+        { "destino": "OliveiraDoBairro", "tipo": "terrestre" },
+        { "destino": "Anadia",            "tipo": "terrestre" },
+        { "destino": "SeverDoVouga",     "tipo": "terrestre" },
+        { "destino": "Mortagua",          "tipo": "terrestre" },
+        { "destino": "Tondela",           "tipo": "terrestre" },
+        { "destino": "Vouzela",           "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "AlbergariaAVelha",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.693,
+      "y": -8.479,
+      "restricoes": ["terrestre"],
+      "populacao": 25000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Agueda",             "tipo": "terrestre" },
+        { "destino": "Aveiro",             "tipo": "terrestre" },
+        { "destino": "Estarreja",          "tipo": "terrestre" },
+        { "destino": "SeverDoVouga",     "tipo": "terrestre" },
+        { "destino": "OliveiraDeAzemeis","tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Anadia",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.438,
+      "y": -8.434,
+      "restricoes": ["terrestre"],
+      "populacao": 29000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Mealhada",          "tipo": "terrestre" },
+        { "destino": "Mortagua",         "tipo": "terrestre" },
+        { "destino": "Agueda",           "tipo": "terrestre" },
+        { "destino": "OliveiraDoBairro","tipo": "terrestre" },
+        { "destino": "Cantanhede",       "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Arouca",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.929,
+      "y": -8.247,
+      "restricoes": ["terrestre"],
+      "populacao": 22000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "SantaMariaDaFeira", "tipo": "terrestre" },
+        { "destino": "Gondomar",             "tipo": "terrestre" },
+        { "destino": "CasteloDePaiva",     "tipo": "terrestre" },
+        { "destino": "SaoPedroDoSul",     "tipo": "terrestre" },
+        { "destino": "ValedeCambra",       "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Aveiro",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.640,
+      "y": -8.653,
+      "restricoes": ["terrestre"],
+      "populacao": 78000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Ilhavo",             "tipo": "terrestre" },
+        { "destino": "Vagos",              "tipo": "terrestre" },
+        { "destino": "OliveiraDoBairro", "tipo": "terrestre" },
+        { "destino": "Agueda",             "tipo": "terrestre" },
+        { "destino": "AlbergariaAVelha", "tipo": "terrestre" },
+        { "destino": "Estarreja",          "tipo": "terrestre" },
+        { "destino": "Murtosa",            "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "CasteloDePaiva",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.06,
+      "y": -8.267,
+      "restricoes": ["terrestre"],
+      "populacao": 16000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Arouca",   "tipo": "terrestre" },
+        { "destino": "Cinfaes",  "tipo": "terrestre" },
+        { "destino": "Penafiel","tipo": "terrestre" },
+        { "destino": "Gondomar","tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Espinho",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.005,
+      "y": -8.642,
+      "restricoes": ["terrestre"],
+      "populacao": 31000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "VilaNovaDeGaia", "tipo": "terrestre" },
+        { "destino": "SantaMariaDaFeira","tipo": "terrestre" },
+        { "destino": "Ovar",             "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Estarreja",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.756,
+      "y": -8.571,
+      "restricoes": ["terrestre"],
+      "populacao": 27000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Ovar",               "tipo": "terrestre" },
+        { "destino": "Murtosa",            "tipo": "terrestre" },
+        { "destino": "Aveiro",             "tipo": "terrestre" },
+        { "destino": "AlbergariaAVelha", "tipo": "terrestre" },
+        { "destino": "OliveiraDeAzemeis","tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Ilhavo",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.599,
+      "y": -8.667,
+      "restricoes": ["terrestre"],
+      "populacao": 38000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Aveiro", "tipo": "terrestre" },
+        { "destino": "Vagos",  "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Mealhada",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.378,
+      "y": -8.449,
+      "restricoes": ["terrestre"],
+      "populacao": 21000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Coimbra",     "tipo": "terrestre" },
+        { "destino": "Anadia",      "tipo": "terrestre" },
+        { "destino": "Cantanhede",  "tipo": "terrestre" },
+        { "destino": "Mortagua",    "tipo": "terrestre" },
+        { "destino": "Penacova",    "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Murtosa",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.735,
+      "y": -8.637,
+      "restricoes": ["terrestre"],
+      "populacao": 10000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Ovar",               "tipo": "terrestre" },
+        { "destino": "Estarreja",          "tipo": "terrestre" },
+        { "destino": "Aveiro",             "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "OliveiraDeAzemeis",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.84,
+      "y": -8.477,
+      "restricoes": ["terrestre"],
+      "populacao": 68000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "SantaMariaDaFeira", "tipo": "terrestre" },
+        { "destino": "SaoJoaoDaMadeira",  "tipo": "terrestre" },
+        { "destino": "ValedeCambra",       "tipo": "terrestre" },
+        { "destino": "SeverDoVouga",       "tipo": "terrestre" },
+        { "destino": "AlbergariaAVelha",   "tipo": "terrestre" },
+        { "destino": "Estarreja",            "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "OliveiraDoBairro",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.515,
+      "y": -8.493,
+      "restricoes": ["terrestre"],
+      "populacao": 25000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Anadia",             "tipo": "terrestre" },
+        { "destino": "Agueda",             "tipo": "terrestre" },
+        { "destino": "Aveiro",             "tipo": "terrestre" },
+        { "destino": "Vagos",              "tipo": "terrestre" },
+        { "destino": "Cantanhede",         "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Ovar",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.86,
+      "y": -8.64,
+      "restricoes": ["terrestre"],
+      "populacao": 55000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Espinho",            "tipo": "terrestre" },
+        { "destino": "SantaMariaDaFeira","tipo": "terrestre" },
+        { "destino": "OliveiraDeAzemeis","tipo": "terrestre" },
+        { "destino": "Estarreja",          "tipo": "terrestre" },
+        { "destino": "Murtosa",            "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "SantaMariaDaFeira",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.925,
+      "y": -8.542,
+      "restricoes": ["terrestre"],
+      "populacao": 136000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "VilaNovaDeGaia", "tipo": "terrestre" },
+        { "destino": "Gondomar",          "tipo": "terrestre" },
+        { "destino": "Arouca",            "tipo": "terrestre" },
+        { "destino": "ValedeCambra",    "tipo": "terrestre" },
+        { "destino": "OliveiraDeAzemeis","tipo": "terrestre" },
+        { "destino": "SaoJoaoDaMadeira","tipo": "terrestre" },
+        { "destino": "Ovar",             "tipo": "terrestre" },
+        { "destino": "Espinho",          "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "SaoJoaoDaMadeira",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.900,
+      "y": -8.499,
+      "restricoes": ["terrestre"],
+      "populacao": 21000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "SantaMariaDaFeira", "tipo": "terrestre" },
+        { "destino": "OliveiraDeAzemeis",  "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "SeverDoVouga",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.729,
+      "y": -8.367,
+      "restricoes": ["terrestre"],
+      "populacao": 12000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "OliveiraDeAzemeis", "tipo": "terrestre" },
+        { "destino": "AlbergariaAVelha",  "tipo": "terrestre" },
+        { "destino": "Agueda",             "tipo": "terrestre" },
+        { "destino": "Vouzela",            "tipo": "terrestre" },
+        { "destino": "SaoPedroDoSul",   "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Vagos",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.556,
+      "y": -8.681,
+      "restricoes": ["terrestre"],
+      "populacao": 23000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Cantanhede",        "tipo": "terrestre" },
+        { "destino": "OliveiraDoBairro","tipo": "terrestre" },
+        { "destino": "Aveiro",            "tipo": "terrestre" },
+        { "destino": "Ilhavo",            "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "ValedeCambra",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 40.848,
+      "y": -8.396,
+      "restricoes": ["terrestre"],
+      "populacao": 22000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "OliveiraDeAzemeis", "tipo": "terrestre" },
+        { "destino": "SantaMariaDaFeira","tipo": "terrestre" },
+        { "destino": "Arouca",              "tipo": "terrestre" },
+        { "destino": "SaoPedroDoSul",    "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Aljustrel",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 37.877,
+      "y": -8.165,
+      "restricoes": ["terrestre"],
+      "populacao": 8500,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Beja", "tipo": "terrestre" },
+        { "destino": "CastroVerde", "tipo": "terrestre" },
+        { "destino": "FerreiraDoAlentejo", "tipo": "terrestre" },
+        { "destino": "Ourique", "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Almodovar",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 37.510,
+      "y": -8.057,
+      "restricoes": ["terrestre"],
+      "populacao": 7200,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "CastroVerde", "tipo": "terrestre" },
+        { "destino": "Mertola", "tipo": "terrestre" },
+        { "destino": "Ourique", "tipo": "terrestre" },
+        { "destino": "Loule", "tipo": "terrestre" } 
+      ]
+    },
+    {
+      "nome": "Alvito",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 38.256,
+      "y": -7.992,
+      "restricoes": ["terrestre"],
+      "populacao": 2500,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Cuba", "tipo": "terrestre" },
+        { "destino": "VianaDoAlentejo", "tipo": "terrestre" }, 
+        { "destino": "Portel", "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Beja",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 38.015,
+      "y": -7.863,
+      "restricoes": ["terrestre"],
+      "populacao": 34000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Aljustrel", "tipo": "terrestre" },
+        { "destino": "CastroVerde", "tipo": "terrestre" },
+        { "destino": "Cuba", "tipo": "terrestre" },
+        { "destino": "FerreiraDoAlentejo", "tipo": "terrestre" },
+        { "destino": "Mertola", "tipo": "terrestre" },
+        { "destino": "Serpa", "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "CastroVerde",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 37.699,
+      "y": -8.085,
+      "restricoes": ["terrestre"],
+      "populacao": 7100,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Aljustrel", "tipo": "terrestre" },
+        { "destino": "Almodovar", "tipo": "terrestre" },
+        { "destino": "Mertola", "tipo": "terrestre" },
+        { "destino": "Ourique", "tipo": "terrestre" },
+        { "destino": "Beja", "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Cuba",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 38.168,
+      "y": -7.892,
+      "restricoes": ["terrestre"],
+      "populacao": 4700,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Alvito", "tipo": "terrestre" },
+        { "destino": "Beja", "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "FerreiraDoAlentejo",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 38.05,
+      "y": -8.04,
+      "restricoes": ["terrestre"],
+      "populacao": 8000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Aljustrel", "tipo": "terrestre" },
+        { "destino": "Beja", "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Mertola",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 37.642,
+      "y": -7.661,
+      "restricoes": ["terrestre"],
+      "populacao": 7000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Beja", "tipo": "terrestre" },
+        { "destino": "CastroVerde", "tipo": "terrestre" },
+        { "destino": "Almodovar", "tipo": "terrestre" },
+        { "destino": "Serpa", "tipo": "terrestre" },
+        { "destino": "Alcoutim", "tipo": "terrestre" } 
+      ]
+    },
+    {
+      "nome": "Odemira",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 37.598,
+      "y": -8.639,
+      "restricoes": ["terrestre"],
+      "populacao": 26000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Ourique", "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Ourique",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 37.654,
+      "y": -8.224,
+      "restricoes": ["terrestre"],
+      "populacao": 5000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "CastroVerde", "tipo": "terrestre" },
+        { "destino": "Aljustrel", "tipo": "terrestre" },
+        { "destino": "Almodovar", "tipo": "terrestre" },
+        { "destino": "Odemira", "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Serpa",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 37.944,
+      "y": -7.596,
+      "restricoes": ["terrestre"],
+      "populacao": 15000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Beja", "tipo": "terrestre" },
+        { "destino": "Mertola", "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Amares",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.633,
+      "y": -8.351,
+      "restricoes": ["terrestre"],
+      "populacao": 19000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Braga", "tipo": "terrestre" },
+        { "destino": "VilaVerde", "tipo": "terrestre" },
+        { "destino": "TerrasDeBouro", "tipo": "terrestre" },
+        { "destino": "PovoaDeLanhoso", "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Barcelos",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.538,
+      "y": -8.615,
+      "restricoes": ["terrestre"],
+      "populacao": 120000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "VianaDoCastelo", "tipo": "terrestre" },
+        { "destino": "PonteDeLima",    "tipo": "terrestre" },
+        { "destino": "Esposende",        "tipo": "terrestre" },
+        { "destino": "Braga",           "tipo": "terrestre" },
+        { "destino": "VilaNovaDeFamalicao", "tipo": "terrestre" },
+        { "destino": "VilaVerde",       "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Braga",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.550,
+      "y": -8.420,
+      "restricoes": ["terrestre"],
+      "populacao": 181000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "VilaVerde",          "tipo": "terrestre" },
+        { "destino": "Amares",             "tipo": "terrestre" },
+        { "destino": "PovoaDeLanhoso",   "tipo": "terrestre" },
+        { "destino": "Guimaraes",          "tipo": "terrestre" },
+        { "destino": "VilaNovaDeFamalicao", "tipo": "terrestre" },
+        { "destino": "Barcelos",           "tipo": "terrestre" },
+        { "destino": "TerrasDeBouro",    "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "CabeceirasDeBasto",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.515,
+      "y": -7.989,
+      "restricoes": ["terrestre"],
+      "populacao": 16000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "RibeiraDePena", "tipo": "terrestre" },
+        { "destino": "MondimDeBasto", "tipo": "terrestre" },
+        { "destino": "CeloricoDeBasto", "tipo": "terrestre" },
+        { "destino": "Fafe", "tipo": "terrestre" },
+        { "destino": "VieiraDoMinho", "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "CeloricoDeBasto",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.387,
+      "y": -8.001,
+      "restricoes": ["terrestre"],
+      "populacao": 20000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "CabeceirasDeBasto", "tipo": "terrestre" },
+        { "destino": "MondimDeBasto",     "tipo": "terrestre" },
+        { "destino": "Amarante",           "tipo": "terrestre" },
+        { "destino": "Felgueiras",         "tipo": "terrestre" },
+        { "destino": "Fafe",               "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Esposende",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.534,
+      "y": -8.780,
+      "restricoes": ["terrestre"],
+      "populacao": 35000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Barcelos", "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Fafe",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.448,
+      "y": -8.173,
+      "restricoes": ["terrestre"],
+      "populacao": 50000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Guimaraes",         "tipo": "terrestre" },
+        { "destino": "PovoaDeLanhoso",  "tipo": "terrestre" },
+        { "destino": "VieiraDoMinho",   "tipo": "terrestre" },
+        { "destino": "CabeceirasDeBasto", "tipo": "terrestre" },
+        { "destino": "CeloricoDeBasto", "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Guimaraes",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.445,
+      "y": -8.290,
+      "restricoes": ["terrestre"],
+      "populacao": 158000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Vizela",        "tipo": "terrestre" },
+        { "destino": "Felgueiras",    "tipo": "terrestre" },
+        { "destino": "Fafe",          "tipo": "terrestre" },
+        { "destino": "PovoaDeLanhoso","tipo": "terrestre" },
+        { "destino": "Braga",         "tipo": "terrestre" },
+        { "destino": "VilaNovaDeFamalicao", "tipo": "terrestre" },
+        { "destino": "SantoTirso",   "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "PovoaDeLanhoso",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.576,
+      "y": -8.269,
+      "restricoes": ["terrestre"],
+      "populacao": 22000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Braga",   "tipo": "terrestre" },
+        { "destino": "Guimaraes", "tipo": "terrestre" },
+        { "destino": "Fafe",    "tipo": "terrestre" },
+        { "destino": "VieiraDoMinho", "tipo": "terrestre" },
+        { "destino": "Amares",  "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "TerrasDeBouro",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.722,
+      "y": -8.308,
+      "restricoes": ["terrestre"],
+      "populacao": 7000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Amares",        "tipo": "terrestre" },
+        { "destino": "VilaVerde",    "tipo": "terrestre" },
+        { "destino": "PonteDaBarca","tipo": "terrestre" },
+        { "destino": "Montalegre",    "tipo": "terrestre" },
+        { "destino": "VieiraDoMinho","tipo": "terrestre" },
+        { "destino": "Braga",         "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "VieiraDoMinho",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.632,
+      "y": -8.145,
+      "restricoes": ["terrestre"],
+      "populacao": 12000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "TerrasDeBouro", "tipo": "terrestre" },
+        { "destino": "PovoaDeLanhoso","tipo": "terrestre" },
+        { "destino": "Fafe",            "tipo": "terrestre" },
+        { "destino": "CabeceirasDeBasto","tipo": "terrestre" },
+        { "destino": "Montalegre",      "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "VilaNovaDeFamalicao",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.414,
+      "y": -8.519,
+      "restricoes": ["terrestre"],
+      "populacao": 133000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Braga",                 "tipo": "terrestre" },
+        { "destino": "Barcelos",              "tipo": "terrestre" },
+        { "destino": "VilaVerde",            "tipo": "terrestre" },
+        { "destino": "Guimaraes",            "tipo": "terrestre" },
+        { "destino": "SantoTirso",          "tipo": "terrestre" },
+        { "destino": "Trofa",                "tipo": "terrestre" },
+        { "destino": "VilaDoConde",        "tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "VilaVerde",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.645,
+      "y": -8.437,
+      "restricoes": ["terrestre"],
+      "populacao": 48000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "PonteDaBarca", "tipo": "terrestre" },
+        { "destino": "PonteDeLima",  "tipo": "terrestre" },
+        { "destino": "Barcelos",       "tipo": "terrestre" },
+        { "destino": "Braga",         "tipo": "terrestre" },
+        { "destino": "Amares",        "tipo": "terrestre" },
+        { "destino": "TerrasDeBouro","tipo": "terrestre" },
+        { "destino": "VilaNovaDeFamalicao","tipo": "terrestre" }
+      ]
+    },
+    {
+      "nome": "Vizela",
+      "necessidade": null,
+      "gravidade": null,
+      "isBase": false,
+      "x": 41.385,
+      "y": -8.311,
+      "restricoes": ["terrestre"],
+      "populacao": 24000,
+      "janela_tempo_critica": null,
+      "conexoes": [
+        { "destino": "Guimaraes",  "tipo": "terrestre" },
+        { "destino": "Felgueiras", "tipo": "terrestre" },
+        { "destino": "Lousada",    "tipo": "terrestre" },
+        { "destino": "SantoTirso","tipo": "terrestre" }
+      ]
+    },
+        {
+          "nome": "AlfandegaDaFe",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.343,
+          "y": -6.962,
+          "restricoes": ["terrestre"],
+          "populacao": 4800,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VilaFlor", "tipo": "terrestre" },
+            { "destino": "Mogadouro","tipo": "terrestre" },
+            { "destino": "MacedoDeCavaleiros","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Braganca",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.8058,
+          "y": -6.7572,
+          "restricoes": ["terrestre"],
+          "populacao": 35000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Vinhais", "tipo": "terrestre" },
+            { "destino": "MacedoDeCavaleiros","tipo": "terrestre" },
+            { "destino": "Vimioso", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "CarrazedaDeAnsiaes",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.242,
+          "y": -7.307,
+          "restricoes": ["terrestre"],
+          "populacao": 5900,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VilaFlor",           "tipo": "terrestre" },
+            { "destino": "TorreDeMoncorvo",   "tipo": "terrestre" },
+            { "destino": "Alijo",               "tipo": "terrestre" },
+            { "destino": "Murca",               "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "FreixoDeEspada a Cinta",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.092,
+          "y": -6.805,
+          "restricoes": ["terrestre"],
+          "populacao": 3300,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Mogadouro",         "tipo": "terrestre" },
+            { "destino": "TorreDeMoncorvo", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "MacedoDeCavaleiros",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.538,
+          "y": -6.972,
+          "restricoes": ["terrestre"],
+          "populacao": 15500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Mirandela",          "tipo": "terrestre" },
+            { "destino": "VilaFlor",          "tipo": "terrestre" },
+            { "destino": "AlfandegaDaFe",    "tipo": "terrestre" },
+            { "destino": "Mogadouro",          "tipo": "terrestre" },
+            { "destino": "Braganca",           "tipo": "terrestre" },
+            { "destino": "Vinhais",            "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "MirandaDoDouro",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.498,
+          "y": -6.274,
+          "restricoes": ["terrestre"],
+          "populacao": 7000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Mogadouro", "tipo": "terrestre" },
+            { "destino": "Vimioso",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Mirandela",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.483,
+          "y": -7.186,
+          "restricoes": ["terrestre"],
+          "populacao": 24000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Valpacos", "tipo": "terrestre" },
+            { "destino": "Murca",    "tipo": "terrestre" },
+            { "destino": "VilaFlor","tipo": "terrestre" },
+            { "destino": "MacedoDeCavaleiros","tipo": "terrestre" },
+            { "destino": "Vinhais",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Mogadouro",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.340,
+          "y": -6.710,
+          "restricoes": ["terrestre"],
+          "populacao": 8900,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "MirandaDoDouro", "tipo": "terrestre" },
+            { "destino": "Vimioso",          "tipo": "terrestre" },
+            { "destino": "Braganca",         "tipo": "terrestre" }, 
+            { "destino": "MacedoDeCavaleiros", "tipo": "terrestre" },
+            { "destino": "AlfandegaDaFe",  "tipo": "terrestre" },
+            { "destino": "TorreDeMoncorvo","tipo": "terrestre" },
+            { "destino": "FreixoDeEspada a Cinta", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "TorreDeMoncorvo",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.174,
+          "y": -7.053,
+          "restricoes": ["terrestre"],
+          "populacao": 8100,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Mogadouro",        "tipo": "terrestre" },
+            { "destino": "VilaFlor",        "tipo": "terrestre" },
+            { "destino": "CarrazedaDeAnsiaes", "tipo": "terrestre" },
+            { "destino": "FreixoDeEspada a Cinta", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaFlor",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.309,
+          "y": -7.159,
+          "restricoes": ["terrestre"],
+          "populacao": 6600,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Mirandela",         "tipo": "terrestre" },
+            { "destino": "MacedoDeCavaleiros","tipo": "terrestre" },
+            { "destino": "AlfandegaDaFe",   "tipo": "terrestre" },
+            { "destino": "Mogadouro",         "tipo": "terrestre" },
+            { "destino": "TorreDeMoncorvo", "tipo": "terrestre" },
+            { "destino": "CarrazedaDeAnsiaes", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Vimioso",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.585,
+          "y": -6.532,
+          "restricoes": ["terrestre"],
+          "populacao": 4500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "MirandaDoDouro", "tipo": "terrestre" },
+            { "destino": "Mogadouro",        "tipo": "terrestre" },
+            { "destino": "Braganca",         "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Vinhais",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.836,
+          "y": -7.005,
+          "restricoes": ["terrestre"],
+          "populacao": 8500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Braganca",          "tipo": "terrestre" },
+            { "destino": "MacedoDeCavaleiros", "tipo": "terrestre" },
+            { "destino": "Mirandela",         "tipo": "terrestre" },
+            { "destino": "Chaves",            "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Belmonte",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.359,
+          "y": -7.348,
+          "restricoes": ["terrestre"],
+          "populacao": 7000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Covilha", "tipo": "terrestre" },
+            { "destino": "Fundao",  "tipo": "terrestre" },
+            { "destino": "Guarda",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Castelo Branco",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.822,
+          "y": -7.490,
+          "restricoes": ["terrestre"],
+          "populacao": 35000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Fundao",           "tipo": "terrestre" },
+            { "destino": "Idanha-a-Nova",    "tipo": "terrestre" },
+            { "destino": "VilaVelhaDeRodao", "tipo": "terrestre" },
+            { "destino": "Proenca-a-Nova",   "tipo": "terrestre" },
+            { "destino": "Oleiros",          "tipo": "terrestre" },
+            { "destino": "Serta",            "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Covilha",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.286,
+          "y": -7.504,
+          "restricoes": ["terrestre"],
+          "populacao": 51000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Belmonte", "tipo": "terrestre" },
+            { "destino": "Fundao",   "tipo": "terrestre" },
+            { "destino": "Manteigas","tipo": "terrestre" },
+            { "destino": "Seia",     "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Fundao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.138,
+          "y": -7.501,
+          "restricoes": ["terrestre"],
+          "populacao": 29000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Covilha",       "tipo": "terrestre" },
+            { "destino": "Belmonte",      "tipo": "terrestre" },
+            { "destino": "Guarda",        "tipo": "terrestre" },
+            { "destino": "Castelo Branco","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Idanha-a-Nova",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.923,
+          "y": -7.240,
+          "restricoes": ["terrestre"],
+          "populacao": 9000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Castelo Branco", "tipo": "terrestre" },
+            { "destino": "Penamacor",      "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Oleiros",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.918,
+          "y": -7.913,
+          "restricoes": ["terrestre"],
+          "populacao": 5000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Serta",            "tipo": "terrestre" },
+            { "destino": "Proenca-a-Nova",   "tipo": "terrestre" },
+            { "destino": "Castelo Branco",   "tipo": "terrestre" },
+            { "destino": "PampilhosaDaSerra", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Penamacor",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.168,
+          "y": -7.171,
+          "restricoes": ["terrestre"],
+          "populacao": 5000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Sabugal",         "tipo": "terrestre" },
+            { "destino": "Idanha-a-Nova",   "tipo": "terrestre" },
+            { "destino": "Fundao",          "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Proenca-a-Nova",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.752,
+          "y": -7.923,
+          "restricoes": ["terrestre"],
+          "populacao": 8000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Oleiros",            "tipo": "terrestre" },
+            { "destino": "Castelo Branco",     "tipo": "terrestre" },
+            { "destino": "VilaVelhaDeRodao","tipo": "terrestre" },
+            { "destino": "Serta",             "tipo": "terrestre" },
+            { "destino": "Macao",             "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Serta",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.808,
+          "y": -8.098,
+          "restricoes": ["terrestre"],
+          "populacao": 15000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Proenca-a-Nova",   "tipo": "terrestre" },
+            { "destino": "VilaDeRei",      "tipo": "terrestre" },
+            { "destino": "Macao",           "tipo": "terrestre" },
+            { "destino": "Oleiros",         "tipo": "terrestre" },
+            { "destino": "Castelo Branco",  "tipo": "terrestre" },
+            { "destino": "FerreiraDoZezere", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaDeRei",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.676,
+          "y": -8.127,
+          "restricoes": ["terrestre"],
+          "populacao": 3100,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Serta",    "tipo": "terrestre" },
+            { "destino": "Macao",    "tipo": "terrestre" },
+            { "destino": "Abrantes", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaVelhaDeRodao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.664,
+          "y": -7.658,
+          "restricoes": ["terrestre"],
+          "populacao": 3500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Castelo Branco",    "tipo": "terrestre" },
+            { "destino": "Proenca-a-Nova",    "tipo": "terrestre" },
+            { "destino": "Nisa",              "tipo": "terrestre" },
+            { "destino": "Gaviao",           "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Arganil",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.218,
+          "y": -8.054,
+          "restricoes": ["terrestre"],
+          "populacao": 12000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "OliveiraDoHospital", "tipo": "terrestre" },
+            { "destino": "Tabua",               "tipo": "terrestre" },
+            { "destino": "Penacova",            "tipo": "terrestre" },
+            { "destino": "Gois",                "tipo": "terrestre" },
+            { "destino": "PampilhosaDaSerra", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Cantanhede",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.347,
+          "y": -8.595,
+          "restricoes": ["terrestre"],
+          "populacao": 39000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Mira",    "tipo": "terrestre" },
+            { "destino": "Coimbra", "tipo": "terrestre" },
+            { "destino": "MontemorOVelho", "tipo": "terrestre" },
+            { "destino": "Mealhada",         "tipo": "terrestre" },
+            { "destino": "OliveiraDoBairro","tipo": "terrestre" },
+            { "destino": "Vagos",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Coimbra",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.203,
+          "y": -8.410,
+          "restricoes": ["terrestre"],
+          "populacao": 106000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Condeixa-a-Nova", "tipo": "terrestre" },
+            { "destino": "MirandaDoCorvo","tipo": "terrestre" },
+            { "destino": "Lousa",           "tipo": "terrestre" },
+            { "destino": "Penacova",        "tipo": "terrestre" },
+            { "destino": "VilaNovaDePoiares", "tipo": "terrestre" },
+            { "destino": "MontemorOVelho","tipo": "terrestre" },
+            { "destino": "Cantanhede",      "tipo": "terrestre" },
+            { "destino": "Soure",           "tipo": "terrestre" },
+            { "destino": "Mealhada",        "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Condeixa-a-Nova",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.115,
+          "y": -8.497,
+          "restricoes": ["terrestre"],
+          "populacao": 17000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Coimbra",         "tipo": "terrestre" },
+            { "destino": "Soure",           "tipo": "terrestre" },
+            { "destino": "Penela",          "tipo": "terrestre" },
+            { "destino": "MirandaDoCorvo","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "FigueiraDaFoz",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.150,
+          "y": -8.866,
+          "restricoes": ["terrestre"],
+          "populacao": 62000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "MontemorOVelho","tipo": "terrestre" },
+            { "destino": "Pombal",         "tipo": "terrestre" },
+            { "destino": "Marinha Grande", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Gois",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.158,
+          "y": -8.110,
+          "restricoes": ["terrestre"],
+          "populacao": 4200,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Lousa",              "tipo": "terrestre" },
+            { "destino": "VilaNovaDePoiares","tipo": "terrestre" },
+            { "destino": "Arganil",            "tipo": "terrestre" },
+            { "destino": "PampilhosaDaSerra","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Lousa",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.113,
+          "y": -8.246,
+          "restricoes": ["terrestre"],
+          "populacao": 17000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "MirandaDoCorvo","tipo": "terrestre" },
+            { "destino": "VilaNovaDePoiares","tipo": "terrestre" },
+            { "destino": "Gois",            "tipo": "terrestre" },
+            { "destino": "Arganil",         "tipo": "terrestre" },
+            { "destino": "Penacova",        "tipo": "terrestre" },
+            { "destino": "Coimbra",         "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Mira",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.428,
+          "y": -8.737,
+          "restricoes": ["terrestre"],
+          "populacao": 12500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Cantanhede", "tipo": "terrestre" },
+            { "destino": "Vagos",      "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "MirandaDoCorvo",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.093,
+          "y": -8.333,
+          "restricoes": ["terrestre"],
+          "populacao": 13000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Condeixa-a-Nova", "tipo": "terrestre" },
+            { "destino": "Penela",          "tipo": "terrestre" },
+            { "destino": "Lousa",           "tipo": "terrestre" },
+            { "destino": "VilaNovaDePoiares","tipo": "terrestre" },
+            { "destino": "Coimbra",         "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "MontemorOVelho",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.172,
+          "y": -8.692,
+          "restricoes": ["terrestre"],
+          "populacao": 26000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Coimbra",        "tipo": "terrestre" },
+            { "destino": "Cantanhede",     "tipo": "terrestre" },
+            { "destino": "FigueiraDaFoz","tipo": "terrestre" },
+            { "destino": "Soure",          "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "OliveiraDoHospital",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.360,
+          "y": -7.859,
+          "restricoes": ["terrestre"],
+          "populacao": 20000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Arganil",            "tipo": "terrestre" },
+            { "destino": "Tabua",             "tipo": "terrestre" },
+            { "destino": "Seia",              "tipo": "terrestre" },
+            { "destino": "Gouveia",           "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "PampilhosaDaSerra",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.054,
+          "y": -7.949,
+          "restricoes": ["terrestre"],
+          "populacao": 4000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Arganil",            "tipo": "terrestre" },
+            { "destino": "Gois",              "tipo": "terrestre" },
+            { "destino": "Oleiros",           "tipo": "terrestre" },
+            { "destino": "Serta",             "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Penacova",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.315,
+          "y": -8.282,
+          "restricoes": ["terrestre"],
+          "populacao": 15000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Coimbra",          "tipo": "terrestre" },
+            { "destino": "VilaNovaDePoiares","tipo": "terrestre" },
+            { "destino": "Lousa",            "tipo": "terrestre" },
+            { "destino": "Arganil",          "tipo": "terrestre" },
+            { "destino": "Mortagua",         "tipo": "terrestre" },
+            { "destino": "Mealhada",         "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Penela",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.031,
+          "y": -8.390,
+          "restricoes": ["terrestre"],
+          "populacao": 6000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Condeixa-a-Nova", "tipo": "terrestre" },
+            { "destino": "MirandaDoCorvo","tipo": "terrestre" },
+            { "destino": "Ansiao",          "tipo": "terrestre" },
+            { "destino": "Soure",           "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Soure",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.059,
+          "y": -8.626,
+          "restricoes": ["terrestre"],
+          "populacao": 19000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "MontemorOVelho","tipo": "terrestre" },
+            { "destino": "Coimbra",         "tipo": "terrestre" },
+            { "destino": "Condeixa-a-Nova", "tipo": "terrestre" },
+            { "destino": "Pombal",          "tipo": "terrestre" },
+            { "destino": "Penela",          "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Tabua",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.362,
+          "y": -8.029,
+          "restricoes": ["terrestre"],
+          "populacao": 12000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Arganil",           "tipo": "terrestre" },
+            { "destino": "OliveiraDoHospital","tipo": "terrestre" },
+            { "destino": "SantaCombaDao",  "tipo": "terrestre" },
+            { "destino": "CarregalDoSal",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaNovaDePoiares",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.217,
+          "y": -8.263,
+          "restricoes": ["terrestre"],
+          "populacao": 7700,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Coimbra",  "tipo": "terrestre" },
+            { "destino": "Lousa",    "tipo": "terrestre" },
+            { "destino": "Gois",     "tipo": "terrestre" },
+            { "destino": "Penacova", "tipo": "terrestre" },
+            { "destino": "MirandaDoCorvo","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Alandroal",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.705,
+          "y": -7.405,
+          "restricoes": ["terrestre"],
+          "populacao": 5900,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VilaVicosa",          "tipo": "terrestre" },
+            { "destino": "Redondo",             "tipo": "terrestre" },
+            { "destino": "ReguengosDeMonsaraz","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Arraiolos",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.723,
+          "y": -7.985,
+          "restricoes": ["terrestre"],
+          "populacao": 7300,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "evora",           "tipo": "terrestre" },
+            { "destino": "MontemorONovo", "tipo": "terrestre" },
+            { "destino": "Mora",            "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Borba",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.805,
+          "y": -7.454,
+          "restricoes": ["terrestre"],
+          "populacao": 7300,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VilaVicosa", "tipo": "terrestre" },
+            { "destino": "Estremoz",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Estremoz",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.844,
+          "y": -7.585,
+          "restricoes": ["terrestre"],
+          "populacao": 14000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Borba",    "tipo": "terrestre" },
+            { "destino": "VilaVicosa", "tipo": "terrestre" },
+            { "destino": "Redondo", "tipo": "terrestre" },
+            { "destino": "evora",   "tipo": "terrestre" },
+            { "destino": "Monforte","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "evora",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.571,
+          "y": -7.913,
+          "restricoes": ["terrestre"],
+          "populacao": 57000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Arraiolos",          "tipo": "terrestre" },
+            { "destino": "Estremoz",           "tipo": "terrestre" },
+            { "destino": "Redondo",            "tipo": "terrestre" },
+            { "destino": "ReguengosDeMonsaraz", "tipo": "terrestre" },
+            { "destino": "Portel",             "tipo": "terrestre" },
+            { "destino": "VianaDoAlentejo",  "tipo": "terrestre" },
+            { "destino": "MontemorONovo",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "MontemorONovo",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.649,
+          "y": -8.214,
+          "restricoes": ["terrestre"],
+          "populacao": 15700,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "evora",          "tipo": "terrestre" },
+            { "destino": "Arraiolos",      "tipo": "terrestre" },
+            { "destino": "VeDasNovas",   "tipo": "terrestre" },
+            { "destino": "VianaDoAlentejo","tipo": "terrestre" },
+            { "destino": "Mora",           "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Mora",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.945,
+          "y": -8.159,
+          "restricoes": ["terrestre"],
+          "populacao": 4800,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Avis",             "tipo": "terrestre" },
+            { "destino": "PonteDeSor",     "tipo": "terrestre" },
+            { "destino": "Arraiolos",        "tipo": "terrestre" },
+            { "destino": "MontemorONovo",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Mourao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.384,
+          "y": -7.341,
+          "restricoes": ["terrestre"],
+          "populacao": 2600,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "ReguengosDeMonsaraz", "tipo": "terrestre" },
+            { "destino": "Barrancos",            "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Portel",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.306,
+          "y": -7.703,
+          "restricoes": ["terrestre"],
+          "populacao": 6000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "evora",              "tipo": "terrestre" },
+            { "destino": "VianaDoAlentejo",  "tipo": "terrestre" },
+            { "destino": "Alvito",             "tipo": "terrestre" },
+            { "destino": "Vidigueira",         "tipo": "terrestre" },
+            { "destino": "ReguengosDeMonsaraz","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Redondo",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.648,
+          "y": -7.546,
+          "restricoes": ["terrestre"],
+          "populacao": 7000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Estremoz",           "tipo": "terrestre" },
+            { "destino": "evora",             "tipo": "terrestre" },
+            { "destino": "ReguengosDeMonsaraz", "tipo": "terrestre" },
+            { "destino": "Alandroal",         "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "ReguengosDeMonsaraz",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.425,
+          "y": -7.534,
+          "restricoes": ["terrestre"],
+          "populacao": 10000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Redondo",       "tipo": "terrestre" },
+            { "destino": "evora",         "tipo": "terrestre" },
+            { "destino": "Portel",        "tipo": "terrestre" },
+            { "destino": "Mourao",        "tipo": "terrestre" },
+            { "destino": "Alandroal",     "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VeDasNovas",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.677,
+          "y": -8.459,
+          "restricoes": ["terrestre"],
+          "populacao": 12000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "MontemorONovo", "tipo": "terrestre" },
+            { "destino": "Alcochete",       "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VianaDoAlentejo",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.333,
+          "y": -8.003,
+          "restricoes": ["terrestre"],
+          "populacao": 5500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "evora",            "tipo": "terrestre" },
+            { "destino": "Portel",           "tipo": "terrestre" },
+            { "destino": "Alvito",           "tipo": "terrestre" },
+            { "destino": "Cuba",             "tipo": "terrestre" },
+            { "destino": "MontemorONovo",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaVicosa",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.778,
+          "y": -7.417,
+          "restricoes": ["terrestre"],
+          "populacao": 8000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Borba",     "tipo": "terrestre" },
+            { "destino": "Estremoz",  "tipo": "terrestre" },
+            { "destino": "Redondo",   "tipo": "terrestre" },
+            { "destino": "Alandroal", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Albufeira",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.090,
+          "y": -8.250,
+          "restricoes": ["terrestre"],
+          "populacao": 45000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Silves",   "tipo": "terrestre" },
+            { "destino": "Loule",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Alcoutim",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.471,
+          "y": -7.472,
+          "restricoes": ["terrestre"],
+          "populacao": 3000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Mertola",  "tipo": "terrestre" }, 
+            { "destino": "Almodovar","tipo": "terrestre" },
+            { "destino": "Tavira",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Aljezur",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.319,
+          "y": -8.803,
+          "restricoes": ["terrestre"],
+          "populacao": 6000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Lagos",       "tipo": "terrestre" },
+            { "destino": "Monchique",   "tipo": "terrestre" },
+            { "destino": "Odemira",     "tipo": "terrestre" },
+            { "destino": "VilaDoBispo","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Faro",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.019,
+          "y": -7.932,
+          "restricoes": ["terrestre"],
+          "populacao": 60000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Loule",    "tipo": "terrestre" },
+            { "destino": "SaoBrasDeAlportel", "tipo": "terrestre" },
+            { "destino": "Olhao",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Lagoa (Algarve)",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.136,
+          "y": -8.453,
+          "restricoes": ["terrestre"],
+          "populacao": 23000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Portimao",  "tipo": "terrestre" },
+            { "destino": "Silves",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Lagos",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.102,
+          "y": -8.674,
+          "restricoes": ["terrestre"],
+          "populacao": 33000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VilaDoBispo", "tipo": "terrestre" },
+            { "destino": "Portimao",      "tipo": "terrestre" },
+            { "destino": "Aljezur",       "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Loule",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.137,
+          "y": -8.022,
+          "restricoes": ["terrestre"],
+          "populacao": 70000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Faro",          "tipo": "terrestre" },
+            { "destino": "SaoBrasDeAlportel", "tipo": "terrestre" },
+            { "destino": "Almodovar",     "tipo": "terrestre" },
+            { "destino": "Albufeira",     "tipo": "terrestre" },
+            { "destino": "Silves",        "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Monchique",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.318,
+          "y": -8.556,
+          "restricoes": ["terrestre"],
+          "populacao": 6000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Aljezur",  "tipo": "terrestre" },
+            { "destino": "Portimao", "tipo": "terrestre" },
+            { "destino": "Silves",   "tipo": "terrestre" },
+            { "destino": "Odemira",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Olhao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.027,
+          "y": -7.841,
+          "restricoes": ["terrestre"],
+          "populacao": 45000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Faro",              "tipo": "terrestre" },
+            { "destino": "SaoBrasDeAlportel","tipo": "terrestre" },
+            { "destino": "Tavira",            "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Portimao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.136,
+          "y": -8.539,
+          "restricoes": ["terrestre"],
+          "populacao": 55000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Lagos",    "tipo": "terrestre" },
+            { "destino": "Monchique","tipo": "terrestre" },
+            { "destino": "Silves",   "tipo": "terrestre" },
+            { "destino": "Lagoa (Algarve)", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "SaoBrasDeAlportel",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.153,
+          "y": -7.883,
+          "restricoes": ["terrestre"],
+          "populacao": 11000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Loule",    "tipo": "terrestre" },
+            { "destino": "Faro",     "tipo": "terrestre" },
+            { "destino": "Olhao",    "tipo": "terrestre" },
+            { "destino": "Tavira",   "tipo": "terrestre" },
+            { "destino": "Almodovar","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Silves",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.190,
+          "y": -8.438,
+          "restricoes": ["terrestre"],
+          "populacao": 38000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Lagoa (Algarve)", "tipo": "terrestre" },
+            { "destino": "Portimao",        "tipo": "terrestre" },
+            { "destino": "Monchique",       "tipo": "terrestre" },
+            { "destino": "Aljezur",         "tipo": "terrestre" },
+            { "destino": "Loule",           "tipo": "terrestre" },
+            { "destino": "Albufeira",       "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Tavira",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.127,
+          "y": -7.649,
+          "restricoes": ["terrestre"],
+          "populacao": 27000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Olhao",    "tipo": "terrestre" },
+            { "destino": "SaoBrasDeAlportel","tipo": "terrestre" },
+            { "destino": "Alcoutim", "tipo": "terrestre" },
+            { "destino": "Castro Marim", "tipo": "terrestre" },
+            { "destino": "VilaRealDeSanto Antonio", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaDoBispo",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.080,
+          "y": -8.910,
+          "restricoes": ["terrestre"],
+          "populacao": 5000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Lagos",     "tipo": "terrestre" },
+            { "destino": "Aljezur",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaRealDeSanto Antonio",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.195,
+          "y": -7.417,
+          "restricoes": ["terrestre"],
+          "populacao": 19000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Tavira",  "tipo": "terrestre" },
+            { "destino": "Castro Marim","tipo": "terrestre" } 
+          ]
+        },
+        
+        {
+          "nome": "AguiarDaBeira",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.817,
+          "y": -7.544,
+          "restricoes": ["terrestre"],
+          "populacao": 5100,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "PenalvaDoCastelo", "tipo": "terrestre" },
+            { "destino": "Sernancelhe",       "tipo": "terrestre" },
+            { "destino": "Trancoso",          "tipo": "terrestre" },
+            { "destino": "FornosDeAlgodres","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Almeida",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.727,
+          "y": -6.906,
+          "restricoes": ["terrestre"],
+          "populacao": 5100,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Pinhel",  "tipo": "terrestre" },
+            { "destino": "Sabugal", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "CeloricoDaBeira",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.637,
+          "y": -7.390,
+          "restricoes": ["terrestre"],
+          "populacao": 7800,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Trancoso",         "tipo": "terrestre" },
+            { "destino": "Guarda",           "tipo": "terrestre" },
+            { "destino": "Manteigas",        "tipo": "terrestre" },
+            { "destino": "Gouveia",          "tipo": "terrestre" },
+            { "destino": "FornosDeAlgodres","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "FigueiraDeCasteloRodrigo",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.897,
+          "y": -6.963,
+          "restricoes": ["terrestre"],
+          "populacao": 6100,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VilaNovaDeFozCoa", "tipo": "terrestre" },
+            { "destino": "Meda",                 "tipo": "terrestre" },
+            { "destino": "Pinhel",               "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "FornosDeAlgodres",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.627,
+          "y": -7.540,
+          "restricoes": ["terrestre"],
+          "populacao": 4800,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "AguiarDaBeira",   "tipo": "terrestre" },
+            { "destino": "Trancoso",         "tipo": "terrestre" },
+            { "destino": "CeloricoDaBeira","tipo": "terrestre" },
+            { "destino": "Gouveia",          "tipo": "terrestre" },
+            { "destino": "Mangualde",        "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Gouveia",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.495,
+          "y": -7.590,
+          "restricoes": ["terrestre"],
+          "populacao": 14000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "FornosDeAlgodres", "tipo": "terrestre" },
+            { "destino": "CeloricoDaBeira",  "tipo": "terrestre" },
+            { "destino": "Manteigas",          "tipo": "terrestre" },
+            { "destino": "Seia",               "tipo": "terrestre" },
+            { "destino": "Mangualde",          "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Guarda",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.537,
+          "y": -7.265,
+          "restricoes": ["terrestre"],
+          "populacao": 42000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "CeloricoDaBeira", "tipo": "terrestre" },
+            { "destino": "Manteigas",        "tipo": "terrestre" },
+            { "destino": "Covilha",          "tipo": "terrestre" },
+            { "destino": "Belmonte",         "tipo": "terrestre" },
+            { "destino": "Sabugal",          "tipo": "terrestre" },
+            { "destino": "Pinhel",           "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Manteigas",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.402,
+          "y": -7.541,
+          "restricoes": ["terrestre"],
+          "populacao": 3400,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Guarda",   "tipo": "terrestre" },
+            { "destino": "CeloricoDaBeira", "tipo": "terrestre" },
+            { "destino": "Gouveia",  "tipo": "terrestre" },
+            { "destino": "Seia",     "tipo": "terrestre" },
+            { "destino": "Covilha",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Meda",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.968,
+          "y": -7.261,
+          "restricoes": ["terrestre"],
+          "populacao": 5200,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VilaNovaDeFozCoa", "tipo": "terrestre" },
+            { "destino": "FigueiraDeCasteloRodrigo", "tipo": "terrestre" },
+            { "destino": "Pinhel",               "tipo": "terrestre" },
+            { "destino": "Trancoso",             "tipo": "terrestre" },
+            { "destino": "Penedono",             "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Pinhel",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.777,
+          "y": -7.066,
+          "restricoes": ["terrestre"],
+          "populacao": 9000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Meda",     "tipo": "terrestre" },
+            { "destino": "Trancoso", "tipo": "terrestre" },
+            { "destino": "Guarda",   "tipo": "terrestre" },
+            { "destino": "Sabugal",  "tipo": "terrestre" },
+            { "destino": "Almeida",  "tipo": "terrestre" },
+            { "destino": "FigueiraDeCasteloRodrigo", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Sabugal",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.351,
+          "y": -7.090,
+          "restricoes": ["terrestre"],
+          "populacao": 12000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Pinhel",   "tipo": "terrestre" },
+            { "destino": "Guarda",   "tipo": "terrestre" },
+            { "destino": "Belmonte", "tipo": "terrestre" },
+            { "destino": "Penamacor", "tipo": "terrestre" },
+            { "destino": "Almeida",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Seia",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.415,
+          "y": -7.708,
+          "restricoes": ["terrestre"],
+          "populacao": 24000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Gouveia",   "tipo": "terrestre" },
+            { "destino": "Manteigas", "tipo": "terrestre" },
+            { "destino": "Covilha",   "tipo": "terrestre" },
+            { "destino": "OliveiraDoHospital", "tipo": "terrestre" },
+            { "destino": "Mangualde", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Trancoso",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.783,
+          "y": -7.350,
+          "restricoes": ["terrestre"],
+          "populacao": 9300,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Meda",      "tipo": "terrestre" },
+            { "destino": "VilaNovaDeFozCoa", "tipo": "terrestre" },
+            { "destino": "AguiarDaBeira", "tipo": "terrestre" },
+            { "destino": "FornosDeAlgodres","tipo": "terrestre" },
+            { "destino": "CeloricoDaBeira","tipo": "terrestre" },
+            { "destino": "Pinhel",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaNovaDeFozCoa",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.083,
+          "y": -7.316,
+          "restricoes": ["terrestre"],
+          "populacao": 7000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "TorreDeMoncorvo",       "tipo": "terrestre" },
+            { "destino": "FreixoDeEspada a Cinta","tipo": "terrestre" },
+            { "destino": "FigueiraDeCasteloRodrigo", "tipo": "terrestre" },
+            { "destino": "Meda",                   "tipo": "terrestre" },
+            { "destino": "Trancoso",               "tipo": "terrestre" }
+          ]
+        },
+        
+        {
+          "nome": "Alcobaca",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.552,
+          "y": -8.977,
+          "restricoes": ["terrestre"],
+          "populacao": 56000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Nazare",   "tipo": "terrestre" },
+            { "destino": "CaDasaRainha","tipo": "terrestre" },
+            { "destino": "obidos",   "tipo": "terrestre" },
+            { "destino": "Rio Maior", "tipo": "terrestre" },
+            { "destino": "PortoDeMos","tipo": "terrestre" },
+            { "destino": "Batalha",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Alvaiazere",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.826,
+          "y": -8.379,
+          "restricoes": ["terrestre"],
+          "populacao": 7300,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Ansiao",     "tipo": "terrestre" },
+            { "destino": "FerreiraDoZezere","tipo": "terrestre" },
+            { "destino": "Ourem",      "tipo": "terrestre" },
+            { "destino": "FigueirodosVinhos","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Ansiao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.913,
+          "y": -8.435,
+          "restricoes": ["terrestre"],
+          "populacao": 9500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Alvaiazere",        "tipo": "terrestre" },
+            { "destino": "Penela",            "tipo": "terrestre" },
+            { "destino": "Condeixa-a-Nova",   "tipo": "terrestre" },
+            { "destino": "Soure",            "tipo": "terrestre" },
+            { "destino": "Pombal",           "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Batalha",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.660,
+          "y": -8.828,
+          "restricoes": ["terrestre"],
+          "populacao": 15700,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "PortoDeMos", "tipo": "terrestre" },
+            { "destino": "Leiria",       "tipo": "terrestre" },
+            { "destino": "Ourem",        "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Bombarral",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.267,
+          "y": -9.157,
+          "restricoes": ["terrestre"],
+          "populacao": 13500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "obidos",   "tipo": "terrestre" },
+            { "destino": "Cadaval",  "tipo": "terrestre" },
+            { "destino": "Lourinha", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "CaDasaRainha",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.403,
+          "y": -9.135,
+          "restricoes": ["terrestre"],
+          "populacao": 51000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Alcobaca",     "tipo": "terrestre" },
+            { "destino": "Nazare",       "tipo": "terrestre" },
+            { "destino": "obidos",       "tipo": "terrestre" },
+            { "destino": "Bombarral",    "tipo": "terrestre" },
+            { "destino": "Rio Maior",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "CastanheiraDePera",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.918,
+          "y": -8.210,
+          "restricoes": ["terrestre"],
+          "populacao": 3000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "FigueirodosVinhos", "tipo": "terrestre" },
+            { "destino": "Pedrogao Grande",     "tipo": "terrestre" },
+            { "destino": "Gois",                "tipo": "terrestre" },
+            { "destino": "Lousa",               "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "FigueirodosVinhos",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.888,
+          "y": -8.275,
+          "restricoes": ["terrestre"],
+          "populacao": 6000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Pedrogao Grande", "tipo": "terrestre" },
+            { "destino": "CastanheiraDePera", "tipo": "terrestre" },
+            { "destino": "Ansiao",          "tipo": "terrestre" },
+            { "destino": "Penela",          "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Leiria",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.743,
+          "y": -8.807,
+          "restricoes": ["terrestre"],
+          "populacao": 127000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Batalha",     "tipo": "terrestre" },
+            { "destino": "PortoDeMos","tipo": "terrestre" },
+            { "destino": "Pombal",      "tipo": "terrestre" },
+            { "destino": "Marinha Grande", "tipo": "terrestre" },
+            { "destino": "Ourem",       "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Marinha Grande",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.749,
+          "y": -8.896,
+          "restricoes": ["terrestre"],
+          "populacao": 39000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Leiria",          "tipo": "terrestre" },
+            { "destino": "Pombal",          "tipo": "terrestre" },
+            { "destino": "FigueiraDaFoz", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Nazare",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.603,
+          "y": -9.068,
+          "restricoes": ["terrestre"],
+          "populacao": 15000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Alcobaca", "tipo": "terrestre" },
+            { "destino": "CaDasaRainha", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "obidos",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.360,
+          "y": -9.158,
+          "restricoes": ["terrestre"],
+          "populacao": 12000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "CaDasaRainha", "tipo": "terrestre" },
+            { "destino": "Bombarral",        "tipo": "terrestre" },
+            { "destino": "Peniche",          "tipo": "terrestre" },
+            { "destino": "Lourinha",         "tipo": "terrestre" },
+            { "destino": "Alcobaca",         "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Pedrogao Grande",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.918,
+          "y": -8.145,
+          "restricoes": ["terrestre"],
+          "populacao": 3700,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "FigueirodosVinhos", "tipo": "terrestre" },
+            { "destino": "CastanheiraDePera", "tipo": "terrestre" },
+            { "destino": "Serta",               "tipo": "terrestre" },
+            { "destino": "Oleiros",             "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Peniche",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.355,
+          "y": -9.379,
+          "restricoes": ["terrestre"],
+          "populacao": 27700,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "obidos",    "tipo": "terrestre" },
+            { "destino": "Lourinha",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Pombal",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.917,
+          "y": -8.628,
+          "restricoes": ["terrestre"],
+          "populacao": 58000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Ansiao",        "tipo": "terrestre" },
+            { "destino": "Soure",         "tipo": "terrestre" },
+            { "destino": "FigueiraDaFoz","tipo": "terrestre" },
+            { "destino": "Marinha Grande", "tipo": "terrestre" },
+            { "destino": "Leiria",         "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "PortoDeMos",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.601,
+          "y": -8.818,
+          "restricoes": ["terrestre"],
+          "populacao": 24000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Alcobaca",     "tipo": "terrestre" },
+            { "destino": "Batalha",      "tipo": "terrestre" },
+            { "destino": "Leiria",       "tipo": "terrestre" },
+            { "destino": "Ourem",        "tipo": "terrestre" },
+            { "destino": "Torres Novas", "tipo": "terrestre" }
+          ]
+        },
+        
+        {
+          "nome": "Alenquer",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.053,
+          "y": -8.978,
+          "restricoes": ["terrestre"],
+          "populacao": 43000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "ArrudaDosVinhos", "tipo": "terrestre" },
+            { "destino": "VilaFrancaDeXira","tipo": "terrestre" },
+            { "destino": "Azambuja",          "tipo": "terrestre" },
+            { "destino": "Cadaval",           "tipo": "terrestre" },
+            { "destino": "SobralDeMonte Agraco","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Amadora",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.759,
+          "y": -9.239,
+          "restricoes": ["terrestre"],
+          "populacao": 180000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Lisboa",   "tipo": "terrestre" },
+            { "destino": "Odivelas", "tipo": "terrestre" },
+            { "destino": "Sintra",   "tipo": "terrestre" },
+            { "destino": "Oeiras",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "ArrudaDosVinhos",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.983,
+          "y": -9.078,
+          "restricoes": ["terrestre"],
+          "populacao": 14000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VilaFrancaDeXira", "tipo": "terrestre" },
+            { "destino": "Alenquer",           "tipo": "terrestre" },
+            { "destino": "SobralDeMonte Agraco","tipo": "terrestre" },
+            { "destino": "Loures",             "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Azambuja",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.072,
+          "y": -8.868,
+          "restricoes": ["terrestre"],
+          "populacao": 21000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VilaFrancaDeXira", "tipo": "terrestre" },
+            { "destino": "Cartaxo",             "tipo": "terrestre" },
+            { "destino": "Rio Maior",           "tipo": "terrestre" },
+            { "destino": "Alenquer",            "tipo": "terrestre" },
+            { "destino": "SalvaterraDeMagos", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Cadaval",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.242,
+          "y": -9.100,
+          "restricoes": ["terrestre"],
+          "populacao": 14000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Alenquer",     "tipo": "terrestre" },
+            { "destino": "Torres Vedras","tipo": "terrestre" },
+            { "destino": "CaDasaRainha", "tipo": "terrestre" },
+            { "destino": "Bombarral",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Cascais",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.697,
+          "y": -9.421,
+          "restricoes": ["terrestre"],
+          "populacao": 215000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Sintra", "tipo": "terrestre" },
+            { "destino": "Oeiras","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Lisboa",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.722,
+          "y": -9.139,
+          "restricoes": ["terrestre", "aereo", "aquatico"],
+          "populacao": 545000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Oeiras",  "tipo": "terrestre" },
+            { "destino": "Amadora", "tipo": "terrestre" },
+            { "destino": "Odivelas","tipo": "terrestre" },
+            { "destino": "Loures",  "tipo": "terrestre" },
+            { "destino": "Setubal", "tipo": "terrestre" }, 
+            { "destino": "Porto",   "tipo": "aereo" },
+            {"destino": "Acores", "tipo": "aereo"},
+            {"destino": "Acores", "tipo": "aquatico"},
+            {"destino": "Madeira", "tipo": "aereo"}
+          ]
+        },
+        {
+          "nome": "Loures",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.828,
+          "y": -9.168,
+          "restricoes": ["terrestre"],
+          "populacao": 205000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Lisboa",   "tipo": "terrestre" },
+            { "destino": "Odivelas", "tipo": "terrestre" },
+            { "destino": "Mafra",    "tipo": "terrestre" },
+            { "destino": "SobralDeMonte Agraco","tipo": "terrestre" },
+            { "destino": "ArrudaDosVinhos", "tipo": "terrestre" },
+            { "destino": "VilaFrancaDeXira","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Lourinha",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.239,
+          "y": -9.314,
+          "restricoes": ["terrestre"],
+          "populacao": 27000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Torres Vedras", "tipo": "terrestre" },
+            { "destino": "Peniche",       "tipo": "terrestre" },
+            { "destino": "Bombarral",     "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Mafra",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.940,
+          "y": -9.328,
+          "restricoes": ["terrestre"],
+          "populacao": 88000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Torres Vedras", "tipo": "terrestre" },
+            { "destino": "Sintra",        "tipo": "terrestre" },
+            { "destino": "Loures",        "tipo": "terrestre" },
+            { "destino": "SobralDeMonte Agraco","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Odivelas",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.794,
+          "y": -9.184,
+          "restricoes": ["terrestre"],
+          "populacao": 145000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Lisboa",  "tipo": "terrestre" },
+            { "destino": "Loures",  "tipo": "terrestre" },
+            { "destino": "Amadora", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Oeiras",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.697,
+          "y": -9.302,
+          "restricoes": ["terrestre"],
+          "populacao": 174000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Lisboa",   "tipo": "terrestre" },
+            { "destino": "Amadora",  "tipo": "terrestre" },
+            { "destino": "Cascais",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Sintra",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.798,
+          "y": -9.378,
+          "restricoes": ["terrestre"],
+          "populacao": 392000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Amadora", "tipo": "terrestre" },
+            { "destino": "Odivelas","tipo": "terrestre" },
+            { "destino": "Loures",  "tipo": "terrestre" },
+            { "destino": "Mafra",   "tipo": "terrestre" },
+            { "destino": "Cascais", "tipo": "terrestre" },
+            { "destino": "Oeiras",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "SobralDeMonte Agraco",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.017,
+          "y": -9.147,
+          "restricoes": ["terrestre"],
+          "populacao": 10000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Mafra",   "tipo": "terrestre" },
+            { "destino": "Loures",  "tipo": "terrestre" },
+            { "destino": "ArrudaDosVinhos","tipo": "terrestre" },
+            { "destino": "Alenquer","tipo": "terrestre" },
+            { "destino": "Torres Vedras","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Torres Vedras",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.091,
+          "y": -9.258,
+          "restricoes": ["terrestre"],
+          "populacao": 79500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Lourinha", "tipo": "terrestre" },
+            { "destino": "Cadaval",  "tipo": "terrestre" },
+            { "destino": "Alenquer", "tipo": "terrestre" },
+            { "destino": "SobralDeMonte Agraco", "tipo": "terrestre" },
+            { "destino": "Mafra",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaFrancaDeXira",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.955,
+          "y": -8.989,
+          "restricoes": ["terrestre"],
+          "populacao": 137000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Lisboa",   "tipo": "terrestre" },
+            { "destino": "Loures",   "tipo": "terrestre" },
+            { "destino": "ArrudaDosVinhos","tipo": "terrestre" },
+            { "destino": "Alenquer", "tipo": "terrestre" },
+            { "destino": "Benavente","tipo": "terrestre" }
+          ]
+        },
+        
+        {
+          "nome": "AlterDoChao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.196,
+          "y": -7.658,
+          "restricoes": ["terrestre"],
+          "populacao": 3300,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Crato",       "tipo": "terrestre" },
+            { "destino": "Fronteira",   "tipo": "terrestre" },
+            { "destino": "Monforte",    "tipo": "terrestre" },
+            { "destino": "Avis",        "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Arronches",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.122,
+          "y": -7.287,
+          "restricoes": ["terrestre"],
+          "populacao": 3000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Monforte",   "tipo": "terrestre" },
+            { "destino": "Portalegre", "tipo": "terrestre" },
+            { "destino": "Campo Maior","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Avis",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.055,
+          "y": -7.891,
+          "restricoes": ["terrestre"],
+          "populacao": 4500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "PonteDeSor","tipo": "terrestre" },
+            { "destino": "Mora",        "tipo": "terrestre" },
+            { "destino": "Fronteira",   "tipo": "terrestre" },
+            { "destino": "AlterDoChao","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Campo Maior",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.015,
+          "y": -7.065,
+          "restricoes": ["terrestre"],
+          "populacao": 8300,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Elvas",      "tipo": "terrestre" },
+            { "destino": "Arronches",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "CasteloDeVide",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.413,
+          "y": -7.456,
+          "restricoes": ["terrestre"],
+          "populacao": 3300,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Marvao",     "tipo": "terrestre" },
+            { "destino": "Portalegre", "tipo": "terrestre" },
+            { "destino": "Nisa",       "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Crato",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.286,
+          "y": -7.645,
+          "restricoes": ["terrestre"],
+          "populacao": 3500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Nisa",        "tipo": "terrestre" },
+            { "destino": "Gaviao",      "tipo": "terrestre" },
+            { "destino": "PonteDeSor","tipo": "terrestre" },
+            { "destino": "AlterDoChao","tipo": "terrestre" },
+            { "destino": "Fronteira",   "tipo": "terrestre" },
+            { "destino": "Portalegre",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Elvas",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.881,
+          "y": -7.162,
+          "restricoes": ["terrestre"],
+          "populacao": 20000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Campo Maior", "tipo": "terrestre" },
+            { "destino": "Arronches",   "tipo": "terrestre" },
+            { "destino": "Monforte",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Fronteira",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.057,
+          "y": -7.648,
+          "restricoes": ["terrestre"],
+          "populacao": 3200,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "AlterDoChao", "tipo": "terrestre" },
+            { "destino": "Avis",          "tipo": "terrestre" },
+            { "destino": "PonteDeSor",  "tipo": "terrestre" },
+            { "destino": "Sousel",        "tipo": "terrestre" },
+            { "destino": "Monforte",      "tipo": "terrestre" },
+            { "destino": "Crato",         "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Gaviao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.461,
+          "y": -7.935,
+          "restricoes": ["terrestre"],
+          "populacao": 3800,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Nisa",        "tipo": "terrestre" },
+            { "destino": "Macao",       "tipo": "terrestre" },
+            { "destino": "PonteDeSor","tipo": "terrestre" },
+            { "destino": "VilaVelhaDeRodao","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Marvao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.393,
+          "y": -7.376,
+          "restricoes": ["terrestre"],
+          "populacao": 3000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "CasteloDeVide", "tipo": "terrestre" },
+            { "destino": "Portalegre",      "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Monforte",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.054,
+          "y": -7.437,
+          "restricoes": ["terrestre"],
+          "populacao": 3100,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Arronches",  "tipo": "terrestre" },
+            { "destino": "Portalegre", "tipo": "terrestre" },
+            { "destino": "AlterDoChao","tipo": "terrestre" },
+            { "destino": "Fronteira",  "tipo": "terrestre" },
+            { "destino": "Elvas",      "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Nisa",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.514,
+          "y": -7.649,
+          "restricoes": ["terrestre"],
+          "populacao": 7300,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "CasteloDeVide", "tipo": "terrestre" },
+            { "destino": "Gaviao",          "tipo": "terrestre" },
+            { "destino": "Macao",           "tipo": "terrestre" },
+            { "destino": "VilaVelhaDeRodao","tipo": "terrestre" },
+            { "destino": "Crato",           "tipo": "terrestre" },
+            { "destino": "Portalegre",      "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "PonteDeSor",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.245,
+          "y": -8.002,
+          "restricoes": ["terrestre"],
+          "populacao": 17000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Avis",       "tipo": "terrestre" },
+            { "destino": "Fronteira",  "tipo": "terrestre" },
+            { "destino": "Crato",      "tipo": "terrestre" },
+            { "destino": "Gaviao",     "tipo": "terrestre" },
+            { "destino": "Abrantes",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Portalegre",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.297,
+          "y": -7.431,
+          "restricoes": ["terrestre"],
+          "populacao": 24000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Marvao",       "tipo": "terrestre" },
+            { "destino": "CasteloDeVide","tipo": "terrestre" },
+            { "destino": "Nisa",         "tipo": "terrestre" },
+            { "destino": "Crato",        "tipo": "terrestre" },
+            { "destino": "Monforte",     "tipo": "terrestre" },
+            { "destino": "Arronches",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Sousel",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.954,
+          "y": -7.676,
+          "restricoes": ["terrestre"],
+          "populacao": 5900,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Fronteira", "tipo": "terrestre" },
+            { "destino": "Estremoz",  "tipo": "terrestre" },
+            { "destino": "Arraiolos", "tipo": "terrestre" },
+            { "destino": "Mora",      "tipo": "terrestre" },
+            { "destino": "Avis",      "tipo": "terrestre" }
+          ]
+        },
+        
+        {
+          "nome": "Amarante",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.272,
+          "y": -8.082,
+          "restricoes": ["terrestre"],
+          "populacao": 56000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Baiao",             "tipo": "terrestre" },
+            { "destino": "MarcoDeCanaveses","tipo": "terrestre" },
+            { "destino": "CeloricoDeBasto", "tipo": "terrestre" },
+            { "destino": "Felgueiras",        "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Baiao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.162,
+          "y": -8.034,
+          "restricoes": ["terrestre"],
+          "populacao": 19000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "MarcoDeCanaveses", "tipo": "terrestre" },
+            { "destino": "Amarante",           "tipo": "terrestre" },
+            { "destino": "MesaoFrio",         "tipo": "terrestre" },
+            { "destino": "Resende",            "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Felgueiras",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.368,
+          "y": -8.193,
+          "restricoes": ["terrestre"],
+          "populacao": 58000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Amarante",   "tipo": "terrestre" },
+            { "destino": "Lousada",    "tipo": "terrestre" },
+            { "destino": "Vizela",     "tipo": "terrestre" },
+            { "destino": "Guimaraes",  "tipo": "terrestre" },
+            { "destino": "Fafe",       "tipo": "terrestre" },
+            { "destino": "Penafiel",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Gondomar",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.141,
+          "y": -8.532,
+          "restricoes": ["terrestre"],
+          "populacao": 170000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Porto",    "tipo": "terrestre" },
+            { "destino": "Valongo",  "tipo": "terrestre" },
+            { "destino": "Paredes",  "tipo": "terrestre" },
+            { "destino": "Penafiel", "tipo": "terrestre" },
+            { "destino": "SantaMariaDaFeira", "tipo": "terrestre" },
+            { "destino": "Arouca",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Lousada",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.278,
+          "y": -8.277,
+          "restricoes": ["terrestre"],
+          "populacao": 48000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Felgueiras",  "tipo": "terrestre" },
+            { "destino": "Vizela",      "tipo": "terrestre" },
+            { "destino": "SantoTirso", "tipo": "terrestre" },
+            { "destino": "PacosDeFerreira","tipo": "terrestre" },
+            { "destino": "Paredes",     "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Maia",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.235,
+          "y": -8.619,
+          "restricoes": ["terrestre"],
+          "populacao": 140000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Porto",       "tipo": "terrestre" },
+            { "destino": "Valongo",     "tipo": "terrestre" },
+            { "destino": "Gondomar",    "tipo": "terrestre" },
+            { "destino": "Matosinhos",  "tipo": "terrestre" },
+            { "destino": "Trofa",       "tipo": "terrestre" },
+            { "destino": "VilaDoConde","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "MarcoDeCanaveses",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.183,
+          "y": -8.146,
+          "restricoes": ["terrestre"],
+          "populacao": 52000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Amarante",   "tipo": "terrestre" },
+            { "destino": "Baiao",      "tipo": "terrestre" },
+            { "destino": "Penafiel",   "tipo": "terrestre" },
+            { "destino": "Cinfaes",    "tipo": "terrestre" },
+            { "destino": "Resende",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Matosinhos",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.182,
+          "y": -8.689,
+          "restricoes": ["terrestre"],
+          "populacao": 175000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Porto",       "tipo": "terrestre" },
+            { "destino": "Maia",        "tipo": "terrestre" },
+            { "destino": "Trofa",       "tipo": "terrestre" },
+            { "destino": "VilaDoConde","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "PacosDeFerreira",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.276,
+          "y": -8.378,
+          "restricoes": ["terrestre"],
+          "populacao": 56000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Lousada",        "tipo": "terrestre" },
+            { "destino": "Paredes",        "tipo": "terrestre" },
+            { "destino": "SantoTirso",    "tipo": "terrestre" },
+            { "destino": "VilaNovaDeFamalicao", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Paredes",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.208,
+          "y": -8.334,
+          "restricoes": ["terrestre"],
+          "populacao": 86000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Valongo",    "tipo": "terrestre" },
+            { "destino": "Gondomar",   "tipo": "terrestre" },
+            { "destino": "Penafiel",   "tipo": "terrestre" },
+            { "destino": "Lousada",    "tipo": "terrestre" },
+            { "destino": "PacosDeFerreira", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Penafiel",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.208,
+          "y": -8.283,
+          "restricoes": ["terrestre"],
+          "populacao": 72000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Paredes",   "tipo": "terrestre" },
+            { "destino": "Lousada",   "tipo": "terrestre" },
+            { "destino": "Felgueiras","tipo": "terrestre" },
+            { "destino": "Amarante",  "tipo": "terrestre" },
+            { "destino": "MarcoDeCanaveses","tipo": "terrestre" },
+            { "destino": "Gondomar",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Porto",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": true,
+          "x": 41.149,
+          "y": -8.610,
+          "restricoes": ["terrestre", "aereo", "aquatico"],
+          "populacao": 214000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Matosinhos",  "tipo": "terrestre" },
+            { "destino": "Maia",        "tipo": "terrestre" },
+            { "destino": "Gondomar",    "tipo": "terrestre" },
+            { "destino": "VilaNovaDeGaia","tipo": "terrestre" },
+            { "destino": "Valongo",     "tipo": "terrestre" },
+            { "destino": "Lisboa",      "tipo": "aereo" },
+            {"destino": "Acores", "tipo": "aereo"},
+            {"destino": "Acores", "tipo": "aquatico"},
+            {"destino": "Madeira", "tipo": "aereo"},
+            {"destino": "Madeira", "tipo": "aquatico"}
+          ]
+        },
+        {
+          "nome": "PovoaDeVarzim",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.385,
+          "y": -8.763,
+          "restricoes": ["terrestre"],
+          "populacao": 63000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VilaDoConde",  "tipo": "terrestre" },
+            { "destino": "Barcelos",       "tipo": "terrestre" },
+            { "destino": "SantoTirso",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "SantoTirso",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.342,
+          "y": -8.474,
+          "restricoes": ["terrestre"],
+          "populacao": 71000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Trofa",       "tipo": "terrestre" },
+            { "destino": "Maia",        "tipo": "terrestre" },
+            { "destino": "Valongo",     "tipo": "terrestre" },
+            { "destino": "Lousada",     "tipo": "terrestre" },
+            { "destino": "PacosDeFerreira","tipo": "terrestre" },
+            { "destino": "VilaNovaDeFamalicao","tipo": "terrestre" },
+            { "destino": "Guimaraes",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Trofa",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.339,
+          "y": -8.562,
+          "restricoes": ["terrestre"],
+          "populacao": 40000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "SantoTirso", "tipo": "terrestre" },
+            { "destino": "Maia",        "tipo": "terrestre" },
+            { "destino": "VilaDoConde","tipo": "terrestre" },
+            { "destino": "Famalicao",   "tipo": "terrestre" },
+            { "destino": "Matosinhos",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Valongo",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.186,
+          "y": -8.498,
+          "restricoes": ["terrestre"],
+          "populacao": 94700,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Porto",    "tipo": "terrestre" },
+            { "destino": "Maia",     "tipo": "terrestre" },
+            { "destino": "Gondomar", "tipo": "terrestre" },
+            { "destino": "Paredes",  "tipo": "terrestre" },
+            { "destino": "SantoTirso","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaDoConde",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.354,
+          "y": -8.743,
+          "restricoes": ["terrestre"],
+          "populacao": 80000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "PovoaDeVarzim", "tipo": "terrestre" },
+            { "destino": "Trofa",           "tipo": "terrestre" },
+            { "destino": "Maia",            "tipo": "terrestre" },
+            { "destino": "Matosinhos",      "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaNovaDeGaia",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.124,
+          "y": -8.612,
+          "restricoes": ["terrestre"],
+          "populacao": 302000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Porto",      "tipo": "terrestre" },
+            { "destino": "Gondomar",   "tipo": "terrestre" },
+            { "destino": "Espinho",    "tipo": "terrestre" },
+            { "destino": "SantaMariaDaFeira", "tipo": "terrestre" }
+          ]
+        },
+        
+        {
+          "nome": "Abrantes",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.467,
+          "y": -8.200,
+          "restricoes": ["terrestre"],
+          "populacao": 36000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Sardoal",  "tipo": "terrestre" },
+            { "destino": "Macao",    "tipo": "terrestre" },
+            { "destino": "Constancia","tipo": "terrestre" },
+            { "destino": "Gaviao",   "tipo": "terrestre" },
+            { "destino": "PonteDeSor", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Alcanena",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.460,
+          "y": -8.668,
+          "restricoes": ["terrestre"],
+          "populacao": 13500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Torres Novas", "tipo": "terrestre" },
+            { "destino": "Rio Maior",    "tipo": "terrestre" },
+            { "destino": "PortoDeMos", "tipo": "terrestre" },
+            { "destino": "Batalha",      "tipo": "terrestre" },
+            { "destino": "Santarem",     "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Almeirim",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.208,
+          "y": -8.615,
+          "restricoes": ["terrestre"],
+          "populacao": 23800,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Santarem",       "tipo": "terrestre" },
+            { "destino": "Alpiarca",       "tipo": "terrestre" },
+            { "destino": "Coruche",        "tipo": "terrestre" },
+            { "destino": "SalvaterraDeMagos","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Alpiarca",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.257,
+          "y": -8.581,
+          "restricoes": ["terrestre"],
+          "populacao": 7300,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Santarem", "tipo": "terrestre" },
+            { "destino": "Almeirim", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Benavente",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.978,
+          "y": -8.807,
+          "restricoes": ["terrestre"],
+          "populacao": 30500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VilaFrancaDeXira", "tipo": "terrestre" },
+            { "destino": "SalvaterraDeMagos", "tipo": "terrestre" },
+            { "destino": "Coruche",            "tipo": "terrestre" },
+            { "destino": "Montijo",            "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Cartaxo",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.162,
+          "y": -8.788,
+          "restricoes": ["terrestre"],
+          "populacao": 24500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Santarem", "tipo": "terrestre" },
+            { "destino": "Azambuja", "tipo": "terrestre" },
+            { "destino": "Rio Maior","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Chamusca",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.361,
+          "y": -8.481,
+          "restricoes": ["terrestre"],
+          "populacao": 9100,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Almeirim",    "tipo": "terrestre" },
+            { "destino": "Alpiarca",    "tipo": "terrestre" },
+            { "destino": "Santarem",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Constancia",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.475,
+          "y": -8.338,
+          "restricoes": ["terrestre"],
+          "populacao": 4000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Abrantes",            "tipo": "terrestre" },
+            { "destino": "VilaNovaDaBarquinha","tipo": "terrestre" },
+            { "destino": "Tomar",               "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Coruche",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.959,
+          "y": -8.529,
+          "restricoes": ["terrestre"],
+          "populacao": 19500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "SalvaterraDeMagos", "tipo": "terrestre" },
+            { "destino": "Benavente",           "tipo": "terrestre" },
+            { "destino": "Almeirim",            "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Entroncamento",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.467,
+          "y": -8.472,
+          "restricoes": ["terrestre"],
+          "populacao": 20500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Torres Novas",          "tipo": "terrestre" },
+            { "destino": "VilaNovaDaBarquinha","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "FerreiraDoZezere",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.694,
+          "y": -8.291,
+          "restricoes": ["terrestre"],
+          "populacao": 8500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Tomar",       "tipo": "terrestre" },
+            { "destino": "VilaDeRei", "tipo": "terrestre" },
+            { "destino": "Serta",       "tipo": "terrestre" },
+            { "destino": "Alvaiazere",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Macao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.556,
+          "y": -8.000,
+          "restricoes": ["terrestre"],
+          "populacao": 7200,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Abrantes",  "tipo": "terrestre" },
+            { "destino": "Sardoal",   "tipo": "terrestre" },
+            { "destino": "Proenca-a-Nova", "tipo": "terrestre" },
+            { "destino": "Gaviao",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Ourem",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.643,
+          "y": -8.591,
+          "restricoes": ["terrestre"],
+          "populacao": 46000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Torres Novas","tipo": "terrestre" },
+            { "destino": "Tomar",       "tipo": "terrestre" },
+            { "destino": "Alvaiazere",  "tipo": "terrestre" },
+            { "destino": "Leiria",      "tipo": "terrestre" },
+            { "destino": "Batalha",     "tipo": "terrestre" },
+            { "destino": "PortoDeMos","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Rio Maior",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.336,
+          "y": -8.937,
+          "restricoes": ["terrestre"],
+          "populacao": 22000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Santarem",  "tipo": "terrestre" },
+            { "destino": "Cartaxo",   "tipo": "terrestre" },
+            { "destino": "Azambuja",  "tipo": "terrestre" },
+            { "destino": "CaDasaRainha", "tipo": "terrestre" },
+            { "destino": "Alcanena",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "SalvaterraDeMagos",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.026,
+          "y": -8.793,
+          "restricoes": ["terrestre"],
+          "populacao": 24000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Benavente", "tipo": "terrestre" },
+            { "destino": "Almeirim",  "tipo": "terrestre" },
+            { "destino": "Coruche",   "tipo": "terrestre" },
+            { "destino": "Azambuja",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Santarem",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.233,
+          "y": -8.683,
+          "restricoes": ["terrestre"],
+          "populacao": 62000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Rio Maior",     "tipo": "terrestre" },
+            { "destino": "Cartaxo",       "tipo": "terrestre" },
+            { "destino": "Alpiarca",      "tipo": "terrestre" },
+            { "destino": "Almeirim",      "tipo": "terrestre" },
+            { "destino": "Chamusca",      "tipo": "terrestre" },
+            { "destino": "Torres Novas",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Sardoal",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.535,
+          "y": -8.159,
+          "restricoes": ["terrestre"],
+          "populacao": 3800,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Abrantes", "tipo": "terrestre" },
+            { "destino": "Macao",    "tipo": "terrestre" },
+            { "destino": "VilaDeRei", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Tomar",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.603,
+          "y": -8.409,
+          "restricoes": ["terrestre"],
+          "populacao": 40000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "FerreiraDoZezere","tipo": "terrestre" },
+            { "destino": "Ourem",             "tipo": "terrestre" },
+            { "destino": "Torres Novas",      "tipo": "terrestre" },
+            { "destino": "VilaNovaDaBarquinha", "tipo": "terrestre" },
+            { "destino": "Constancia",        "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Torres Novas",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.479,
+          "y": -8.539,
+          "restricoes": ["terrestre"],
+          "populacao": 36000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Alcanena",    "tipo": "terrestre" },
+            { "destino": "Ourem",       "tipo": "terrestre" },
+            { "destino": "Tomar",       "tipo": "terrestre" },
+            { "destino": "VilaNovaDaBarquinha", "tipo": "terrestre" },
+            { "destino": "Entroncamento","tipo": "terrestre" },
+            { "destino": "Santarem",    "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaNovaDaBarquinha",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 39.451,
+          "y": -8.436,
+          "restricoes": ["terrestre"],
+          "populacao": 7200,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Entroncamento", "tipo": "terrestre" },
+            { "destino": "Torres Novas",  "tipo": "terrestre" },
+            { "destino": "Tomar",         "tipo": "terrestre" },
+            { "destino": "Constancia",    "tipo": "terrestre" }
+          ]
+        },
+        
+        {
+          "nome": "AlcacerDoSal",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.372,
+          "y": -8.514,
+          "restricoes": ["terrestre"],
+          "populacao": 13000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Grandola",     "tipo": "terrestre" },
+            { "destino": "SantiagoDoCacem", "tipo": "terrestre" },
+            { "destino": "Palmela",      "tipo": "terrestre" },
+            { "destino": "MontemorONovo","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Alcochete",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.756,
+          "y": -8.960,
+          "restricoes": ["terrestre"],
+          "populacao": 19000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Montijo",   "tipo": "terrestre" },
+            { "destino": "Benavente", "tipo": "terrestre" },
+            { "destino": "VeDasNovas","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Almada",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.679,
+          "y": -9.156,
+          "restricoes": ["terrestre"],
+          "populacao": 174000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Seixal",  "tipo": "terrestre" },
+            { "destino": "Lisboa",  "tipo": "terrestre" } 
+          ]
+        },
+        {
+          "nome": "Grandola",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.177,
+          "y": -8.566,
+          "restricoes": ["terrestre"],
+          "populacao": 14800,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "SantiagoDoCacem", "tipo": "terrestre" },
+            { "destino": "AlcacerDoSal",    "tipo": "terrestre" },
+            { "destino": "Odemira",          "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Moita",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.650,
+          "y": -8.990,
+          "restricoes": ["terrestre"],
+          "populacao": 67000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Barreiro", "tipo": "terrestre" },
+            { "destino": "Montijo",  "tipo": "terrestre" },
+            { "destino": "Seixal",   "tipo": "terrestre" },
+            { "destino": "Palmela",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Montijo",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.706,
+          "y": -8.973,
+          "restricoes": ["terrestre"],
+          "populacao": 51700,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Alcochete", "tipo": "terrestre" },
+            { "destino": "Moita",     "tipo": "terrestre" },
+            { "destino": "Palmela",   "tipo": "terrestre" },
+            { "destino": "Benavente", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Palmela",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.569,
+          "y": -8.901,
+          "restricoes": ["terrestre"],
+          "populacao": 64000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Setubal",          "tipo": "terrestre" },
+            { "destino": "Montijo",          "tipo": "terrestre" },
+            { "destino": "Moita",            "tipo": "terrestre" },
+            { "destino": "AlcacerDoSal",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "SantiagoDoCacem",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.017,
+          "y": -8.695,
+          "restricoes": ["terrestre"],
+          "populacao": 29000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Sines",            "tipo": "terrestre" },
+            { "destino": "Grandola",         "tipo": "terrestre" },
+            { "destino": "AlcacerDoSal",   "tipo": "terrestre" },
+            { "destino": "Odemira",          "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Seixal",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.640,
+          "y": -9.101,
+          "restricoes": ["terrestre"],
+          "populacao": 170000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Almada",   "tipo": "terrestre" },
+            { "destino": "Barreiro", "tipo": "terrestre" },
+            { "destino": "Moita",    "tipo": "terrestre" },
+            { "destino": "Sesimbra", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Sesimbra",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.444,
+          "y": -9.101,
+          "restricoes": ["terrestre"],
+          "populacao": 52000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Setubal",  "tipo": "terrestre" },
+            { "destino": "Seixal",   "tipo": "terrestre" },
+            { "destino": "Almada",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Setubal",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 38.524,
+          "y": -8.888,
+          "restricoes": ["terrestre", "aquatico"],
+          "populacao": 123000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Palmela",  "tipo": "terrestre" },
+            { "destino": "Sesimbra", "tipo": "terrestre" },
+            { "destino": "AlcacerDoSal", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Sines",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 37.957,
+          "y": -8.869,
+          "restricoes": ["terrestre"],
+          "populacao": 14000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "SantiagoDoCacem", "tipo": "terrestre" },
+            { "destino": "Odemira",           "tipo": "terrestre" }
+          ]
+        },
+        
+        {
+          "nome": "ArcosDeValdevez",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.847,
+          "y": -8.416,
+          "restricoes": ["terrestre"],
+          "populacao": 22000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "PonteDaBarca",   "tipo": "terrestre" },
+            { "destino": "PonteDeLima",    "tipo": "terrestre" },
+            { "destino": "Moncao",           "tipo": "terrestre" },
+            { "destino": "TerrasDeBouro",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Caminha",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.878,
+          "y": -8.838,
+          "restricoes": ["terrestre"],
+          "populacao": 16000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VilaNovaDeCerveira", "tipo": "terrestre" },
+            { "destino": "VianaDoCastelo",      "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Melgaco",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 42.113,
+          "y": -8.259,
+          "restricoes": ["terrestre"],
+          "populacao": 9000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Moncao",     "tipo": "terrestre" },
+            { "destino": "ArcosDeValdevez", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Moncao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 42.078,
+          "y": -8.481,
+          "restricoes": ["terrestre"],
+          "populacao": 17500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Melgaco",     "tipo": "terrestre" },
+            { "destino": "Valenca",     "tipo": "terrestre" },
+            { "destino": "ArcosDeValdevez", "tipo": "terrestre"}
+          ]
+        },
+        {
+          "nome": "ParedesDeCoura",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.910,
+          "y": -8.561,
+          "restricoes": ["terrestre"],
+          "populacao": 9000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Valenca",     "tipo": "terrestre" },
+            { "destino": "VilaNovaDeCerveira", "tipo": "terrestre" },
+            { "destino": "PonteDeLima","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "PonteDaBarca",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.804,
+          "y": -8.415,
+          "restricoes": ["terrestre"],
+          "populacao": 11500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "ArcosDeValdevez", "tipo": "terrestre" },
+            { "destino": "PonteDeLima",     "tipo": "terrestre" },
+            { "destino": "TerrasDeBouro",   "tipo": "terrestre" },
+            { "destino": "VilaVerde",        "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "PonteDeLima",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.768,
+          "y": -8.583,
+          "restricoes": ["terrestre"],
+          "populacao": 43500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VianaDoCastelo",  "tipo": "terrestre" },
+            { "destino": "ArcosDeValdevez", "tipo": "terrestre" },
+            { "destino": "PonteDaBarca",    "tipo": "terrestre" },
+            { "destino": "Barcelos",          "tipo": "terrestre" },
+            { "destino": "VilaVerde",        "tipo": "terrestre" },
+            { "destino": "ParedesDeCoura",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Valenca",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 42.031,
+          "y": -8.645,
+          "restricoes": ["terrestre"],
+          "populacao": 14000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Moncao",     "tipo": "terrestre" },
+            { "destino": "ParedesDeCoura","tipo": "terrestre"}
+          ]
+        },
+        {
+          "nome": "VianaDoCastelo",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.694,
+          "y": -8.834,
+          "restricoes": ["terrestre"],
+          "populacao": 88000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Caminha",   "tipo": "terrestre" },
+            { "destino": "PonteDeLima", "tipo": "terrestre" },
+            { "destino": "Barcelos",  "tipo": "terrestre" },
+            { "destino": "VilaNovaDeCerveira","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaNovaDeCerveira",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.942,
+          "y": -8.742,
+          "restricoes": ["terrestre"],
+          "populacao": 9000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Valenca",         "tipo": "terrestre" },
+            { "destino": "ParedesDeCoura","tipo": "terrestre" },
+            { "destino": "Caminha",         "tipo": "terrestre" },
+            { "destino": "VianaDoCastelo","tipo": "terrestre" }
+          ]
+        },
+        
+        {
+          "nome": "Alijo",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.276,
+          "y": -7.475,
+          "restricoes": ["terrestre"],
+          "populacao": 11500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Murca",          "tipo": "terrestre" },
+            { "destino": "Sabrosa",        "tipo": "terrestre" },
+            { "destino": "VilaPoucaDeAguiar", "tipo": "terrestre" },
+            { "destino": "CarrazedaDeAnsiaes","tipo": "terrestre" },
+            { "destino": "PesoDaRegua",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Boticas",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.688,
+          "y": -7.667,
+          "restricoes": ["terrestre"],
+          "populacao": 5700,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Montalegre", "tipo": "terrestre" },
+            { "destino": "Chaves",     "tipo": "terrestre" },
+            { "destino": "RibeiraDePena","tipo": "terrestre" },
+            { "destino": "VilaPoucaDeAguiar","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Chaves",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.739,
+          "y": -7.469,
+          "restricoes": ["terrestre"],
+          "populacao": 41000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Boticas",    "tipo": "terrestre" },
+            { "destino": "Montalegre", "tipo": "terrestre" },
+            { "destino": "Valpacos",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "MesaoFrio",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.163,
+          "y": -7.887,
+          "restricoes": ["terrestre"],
+          "populacao": 4400,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "PesoDaRegua", "tipo": "terrestre" },
+            { "destino": "Baiao",         "tipo": "terrestre" },
+            { "destino": "Resende",       "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "MondimDeBasto",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.413,
+          "y": -7.954,
+          "restricoes": ["terrestre"],
+          "populacao": 7200,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "CabeceirasDeBasto", "tipo": "terrestre" },
+            { "destino": "CeloricoDeBasto",   "tipo": "terrestre" },
+            { "destino": "RibeiraDePena",     "tipo": "terrestre" },
+            { "destino": "VilaReal",           "tipo": "terrestre" },
+            { "destino": "Amarante",            "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Montalegre",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.829,
+          "y": -7.786,
+          "restricoes": ["terrestre"],
+          "populacao": 10500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Boticas",    "tipo": "terrestre" },
+            { "destino": "Chaves",     "tipo": "terrestre" },
+            { "destino": "RibeiraDePena","tipo": "terrestre" },
+            { "destino": "VieiraDoMinho", "tipo": "terrestre" },
+            { "destino": "TerrasDeBouro", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Murca",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.405,
+          "y": -7.453,
+          "restricoes": ["terrestre"],
+          "populacao": 5700,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Alijo",      "tipo": "terrestre" },
+            { "destino": "Valpacos",   "tipo": "terrestre" },
+            { "destino": "Mirandela",  "tipo": "terrestre" },
+            { "destino": "CarrazedaDeAnsiaes", "tipo": "terrestre" },
+            { "destino": "VilaPoucaDeAguiar","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "PesoDaRegua",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.164,
+          "y": -7.787,
+          "restricoes": ["terrestre"],
+          "populacao": 15800,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "SantaMartaDePenaguiao","tipo": "terrestre" },
+            { "destino": "MesaoFrio",        "tipo": "terrestre" },
+            { "destino": "Lamego",           "tipo": "terrestre" },
+            { "destino": "Armamar",          "tipo": "terrestre" },
+            { "destino": "Alijo",            "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "RibeiraDePena",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.521,
+          "y": -7.784,
+          "restricoes": ["terrestre"],
+          "populacao": 6200,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Boticas",   "tipo": "terrestre" },
+            { "destino": "VilaPoucaDeAguiar","tipo": "terrestre" },
+            { "destino": "MondimDeBasto","tipo": "terrestre" },
+            { "destino": "CabeceirasDeBasto","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Sabrosa",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.267,
+          "y": -7.583,
+          "restricoes": ["terrestre"],
+          "populacao": 6000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Alijo",        "tipo": "terrestre" },
+            { "destino": "VilaReal",    "tipo": "terrestre" },
+            { "destino": "PesoDaRegua","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "SantaMartaDePenaguiao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.202,
+          "y": -7.799,
+          "restricoes": ["terrestre"],
+          "populacao": 7200,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "VilaReal",         "tipo": "terrestre" },
+            { "destino": "PesoDaRegua",     "tipo": "terrestre" },
+            { "destino": "MesaoFrio",        "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Valpacos",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.608,
+          "y": -7.310,
+          "restricoes": ["terrestre"],
+          "populacao": 16000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Chaves",    "tipo": "terrestre" },
+            { "destino": "Mirandela", "tipo": "terrestre" },
+            { "destino": "Murca",     "tipo": "terrestre" },
+            { "destino": "Vinhais",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaPoucaDeAguiar",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.500,
+          "y": -7.648,
+          "restricoes": ["terrestre"],
+          "populacao": 13000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Boticas",   "tipo": "terrestre" },
+            { "destino": "RibeiraDePena","tipo": "terrestre" },
+            { "destino": "VilaReal", "tipo": "terrestre" },
+            { "destino": "Murca",     "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaReal",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.300,
+          "y": -7.744,
+          "restricoes": ["terrestre"],
+          "populacao": 51000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "MondimDeBasto",        "tipo": "terrestre" },
+            { "destino": "VilaPoucaDeAguiar",   "tipo": "terrestre" },
+            { "destino": "Sabrosa",                "tipo": "terrestre" },
+            { "destino": "SantaMartaDePenaguiao", "tipo": "terrestre" },
+            { "destino": "PesoDaRegua",          "tipo": "terrestre" }
+          ]
+        },
+        
+        {
+          "nome": "Armamar",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.163,
+          "y": -7.691,
+          "restricoes": ["terrestre"],
+          "populacao": 6000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Lamego",       "tipo": "terrestre" },
+            { "destino": "Tabuaco",      "tipo": "terrestre" },
+            { "destino": "PesoDaRegua","tipo": "terrestre" },
+            { "destino": "Tarouca",      "tipo": "terrestre" },
+            { "destino": "SaoJoaoDaPesqueira", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "CarregalDoSal",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.430,
+          "y": -8.007,
+          "restricoes": ["terrestre"],
+          "populacao": 9700,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "SantaCombaDao", "tipo": "terrestre" },
+            { "destino": "Tabua",           "tipo": "terrestre" },
+            { "destino": "Tondela",         "tipo": "terrestre" },
+            { "destino": "Mortagua",        "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Castro Daire",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.897,
+          "y": -7.932,
+          "restricoes": ["terrestre"],
+          "populacao": 14600,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Cinfaes",         "tipo": "terrestre" },
+            { "destino": "SaoPedroDoSul","tipo": "terrestre" },
+            { "destino": "Viseu",           "tipo": "terrestre" },
+            { "destino": "VilaNovaDePaiva","tipo": "terrestre" },
+            { "destino": "Tarouca",         "tipo": "terrestre" },
+            { "destino": "Lamego",          "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Cinfaes",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.079,
+          "y": -8.081,
+          "restricoes": ["terrestre"],
+          "populacao": 18500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Resende",  "tipo": "terrestre" },
+            { "destino": "Castro Daire", "tipo": "terrestre" },
+            { "destino": "Arouca",   "tipo": "terrestre" },
+            { "destino": "Baiao",    "tipo": "terrestre" },
+            { "destino": "MarcoDeCanaveses", "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Lamego",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.097,
+          "y": -7.809,
+          "restricoes": ["terrestre"],
+          "populacao": 26000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "PesoDaRegua",          "tipo": "terrestre" },
+            { "destino": "Armamar",                "tipo": "terrestre" },
+            { "destino": "Tarouca",                "tipo": "terrestre" },
+            { "destino": "Castro Daire",           "tipo": "terrestre" },
+            { "destino": "SaoJoaoDaPesqueira",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Mangualde",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.603,
+          "y": -7.760,
+          "restricoes": ["terrestre"],
+          "populacao": 19500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Seia",               "tipo": "terrestre" },
+            { "destino": "Gouveia",            "tipo": "terrestre" },
+            { "destino": "Nelas",             "tipo": "terrestre" },
+            { "destino": "Viseu",             "tipo": "terrestre" },
+            { "destino": "PenalvaDoCastelo","tipo": "terrestre" },
+            { "destino": "FornosDeAlgodres","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "MoimentaDaBeira",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.037,
+          "y": -7.617,
+          "restricoes": ["terrestre"],
+          "populacao": 9800,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Sernancelhe", "tipo": "terrestre" },
+            { "destino": "Penedono",    "tipo": "terrestre" },
+            { "destino": "Tabuaco",     "tipo": "terrestre" },
+            { "destino": "SaoJoaoDaPesqueira","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Mortagua",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.396,
+          "y": -8.232,
+          "restricoes": ["terrestre"],
+          "populacao": 9200,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Tabua",             "tipo": "terrestre" },
+            { "destino": "SantaCombaDao",   "tipo": "terrestre" },
+            { "destino": "Penacova",          "tipo": "terrestre" },
+            { "destino": "Mealhada",          "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Nelas",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.532,
+          "y": -7.851,
+          "restricoes": ["terrestre"],
+          "populacao": 13700,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Seia",          "tipo": "terrestre" },
+            { "destino": "Mangualde",     "tipo": "terrestre" },
+            { "destino": "Viseu",         "tipo": "terrestre" },
+            { "destino": "CarregalDoSal","tipo": "terrestre" },
+            { "destino": "OliveiraDoHospital","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "OliveiraDeFrades",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.730,
+          "y": -8.171,
+          "restricoes": ["terrestre"],
+          "populacao": 10000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Vouzela",         "tipo": "terrestre" },
+            { "destino": "SaoPedroDoSul","tipo": "terrestre" },
+            { "destino": "SeverDoVouga",  "tipo": "terrestre" },
+            { "destino": "ValedeCambra",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "PenalvaDoCastelo",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.675,
+          "y": -7.698,
+          "restricoes": ["terrestre"],
+          "populacao": 7300,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "AguiarDaBeira", "tipo": "terrestre" },
+            { "destino": "Viseu",           "tipo": "terrestre" },
+            { "destino": "Mangualde",       "tipo": "terrestre" },
+            { "destino": "Satao",           "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Penedono",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.017,
+          "y": -7.393,
+          "restricoes": ["terrestre"],
+          "populacao": 2200,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Sernancelhe", "tipo": "terrestre" },
+            { "destino": "Meda",        "tipo": "terrestre" },
+            { "destino": "SaoJoaoDaPesqueira","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Resende",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.167,
+          "y": -7.966,
+          "restricoes": ["terrestre"],
+          "populacao": 11000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "MesaoFrio", "tipo": "terrestre" },
+            { "destino": "Cinfaes",    "tipo": "terrestre" },
+            { "destino": "Baiao",      "tipo": "terrestre" },
+            { "destino": "Lamego",     "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "SantaCombaDao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.399,
+          "y": -8.131,
+          "restricoes": ["terrestre"],
+          "populacao": 11000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Tabua",            "tipo": "terrestre" },
+            { "destino": "Mortagua",         "tipo": "terrestre" },
+            { "destino": "Tondela",          "tipo": "terrestre" },
+            { "destino": "CarregalDoSal",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "SaoJoaoDaPesqueira",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.148,
+          "y": -7.404,
+          "restricoes": ["terrestre"],
+          "populacao": 7500,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Tabuaco",          "tipo": "terrestre" },
+            { "destino": "Sernancelhe",      "tipo": "terrestre" },
+            { "destino": "Penedono",         "tipo": "terrestre" },
+            { "destino": "Lamego",           "tipo": "terrestre" },
+            { "destino": "Armamar",          "tipo": "terrestre" },
+            { "destino": "MoimentaDaBeira","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "SaoPedroDoSul",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.755,
+          "y": -8.072,
+          "restricoes": ["terrestre"],
+          "populacao": 16000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "OliveiraDeFrades", "tipo": "terrestre" },
+            { "destino": "Vouzela",            "tipo": "terrestre" },
+            { "destino": "Castro Daire",       "tipo": "terrestre" },
+            { "destino": "Viseu",             "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Satao",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.739,
+          "y": -7.733,
+          "restricoes": ["terrestre"],
+          "populacao": 12000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Viseu",      "tipo": "terrestre" },
+            { "destino": "PenalvaDoCastelo","tipo": "terrestre" },
+            { "destino": "AguiarDaBeira",   "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Sernancelhe",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.987,
+          "y": -7.493,
+          "restricoes": ["terrestre"],
+          "populacao": 5600,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "MoimentaDaBeira","tipo": "terrestre" },
+            { "destino": "Penedono",         "tipo": "terrestre" },
+            { "destino": "SaoJoaoDaPesqueira","tipo": "terrestre" },
+            { "destino": "Tabuaco",          "tipo": "terrestre" },
+            { "destino": "AguiarDaBeira",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Tabuaco",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.116,
+          "y": -7.666,
+          "restricoes": ["terrestre"],
+          "populacao": 6100,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "MoimentaDaBeira","tipo": "terrestre" },
+            { "destino": "SaoJoaoDaPesqueira","tipo": "terrestre" },
+            { "destino": "Armamar",          "tipo": "terrestre" },
+            { "destino": "Sabrosa",          "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Tarouca",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 41.033,
+          "y": -7.783,
+          "restricoes": ["terrestre"],
+          "populacao": 8000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Armamar",    "tipo": "terrestre" },
+            { "destino": "Lamego",     "tipo": "terrestre" },
+            { "destino": "Castro Daire","tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Tondela",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.516,
+          "y": -8.081,
+          "restricoes": ["terrestre"],
+          "populacao": 28000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "CarregalDoSal", "tipo": "terrestre" },
+            { "destino": "SantaCombaDao", "tipo": "terrestre" },
+            { "destino": "OliveiraDeFrades", "tipo": "terrestre" },
+            { "destino": "Viseu",           "tipo": "terrestre" },
+            { "destino": "Mortagua",        "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "VilaNovaDePaiva",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.828,
+          "y": -7.721,
+          "restricoes": ["terrestre"],
+          "populacao": 5100,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Castro Daire", "tipo": "terrestre" },
+            { "destino": "Viseu",        "tipo": "terrestre" },
+            { "destino": "Satao",        "tipo": "terrestre" },
+            { "destino": "Sernancelhe",  "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Viseu",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.661,
+          "y": -7.909,
+          "restricoes": ["terrestre"],
+          "populacao": 99000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "Vouzela",        "tipo": "terrestre" },
+            { "destino": "SaoPedroDoSul","tipo": "terrestre" },
+            { "destino": "Castro Daire",   "tipo": "terrestre" },
+            { "destino": "VilaNovaDePaiva","tipo": "terrestre" },
+            { "destino": "Satao",          "tipo": "terrestre" },
+            { "destino": "PenalvaDoCastelo","tipo": "terrestre" },
+            { "destino": "Mangualde",      "tipo": "terrestre" },
+            { "destino": "Nelas",          "tipo": "terrestre" },
+            { "destino": "Tondela",        "tipo": "terrestre" }
+          ]
+        },
+        {
+          "nome": "Vouzela",
+          "necessidade": null,
+          "gravidade": null,
+          "isBase": false,
+          "x": 40.723,
+          "y": -8.112,
+          "restricoes": ["terrestre"],
+          "populacao": 10000,
+          "janela_tempo_critica": null,
+          "conexoes": [
+            { "destino": "OliveiraDeFrades", "tipo": "terrestre" },
+            { "destino": "SaoPedroDoSul",   "tipo": "terrestre" },
+            { "destino": "Viseu",             "tipo": "terrestre" }
+          ]
+        },
+        {
+            "nome": "Madeira",
+            "necessidade": null,
+            "gravidade": null,
+            "isBase": false,
+            "x": 32.63333, 
+            "y": -16.9,
+            "restricoes": ["aereo", "aquatico"],
+            "populacao": 251000,
+            "janela_tempo_critica": null,
+            "conexoes": [
+              {"destino": "Lisboa", "tipo": "aereo"},
+              {"destino": "Porto", "tipo": "aereo"},
+              {"destino": "Acores", "tipo": "aquatico"},
+              {"destino": "Acores", "tipo": "aereo"}
+            ]
+          },
+          {
+            "nome": "Acores",
+            "necessidade": null,
+            "gravidade": null,
+            "isBase": false,
+            "x": 37.73333, 
+            "y": -25.66667,
+            "restricoes": ["aereo", "aquatico"],
+            "populacao": 137856,
+            "janela_tempo_critica": null,
+            "conexoes": [
+              {"destino": "Lisboa", "tipo": "aereo"},
+              {"destino": "Porto", "tipo": "aereo"},
+              {"destino": "Madeira", "tipo": "aquatico"},
+              {"destino": "Madeira", "tipo": "aereo"}
+        
+            ]
+          }
+    ]

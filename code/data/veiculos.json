@@ -1,0 +1,44 @@
+[
+  {
+    "id": "Aviao",
+    "tipo": "aereo",
+    "peso_maximo": 1000,
+    "velocidade": 300
+  },
+  {
+    "id": "Helicoptero",
+    "tipo": "aereo",
+    "peso_maximo": 800,
+    "velocidade": 250
+  },
+  {
+    "id": "Drone",
+    "tipo": "aereo",
+    "peso_maximo": 100,
+    "velocidade": 70
+  },
+  {
+    "id": "Navio",
+    "tipo": "aquatico",
+    "peso_maximo": 3000,
+    "velocidade": 30
+  },
+  {
+    "id": "Camiao",
+    "tipo": "terrestre",
+    "peso_maximo": 1000,
+    "velocidade": 70
+  },
+  {
+    "id": "Carro",
+    "tipo": "terrestre",
+    "peso_maximo": 300,
+    "velocidade": 120
+  },
+  {
+    "id": "Moto",
+    "tipo": "terrestre",
+    "peso_maximo": 150,
+    "velocidade": 100
+  }
+]

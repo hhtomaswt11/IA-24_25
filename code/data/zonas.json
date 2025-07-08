@@ -1,0 +1,330 @@
+[
+  {
+    "nome": "Lisboa",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 38.7169, 
+    "y": -9.1390,
+    "restricoes": ["aereo", "terrestre", "aquatico"],
+    "populacao": 2275000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Setubal", "tipo": "terrestre"},
+      {"destino": "Santarem", "tipo": "terrestre"},
+      {"destino": "Leiria", "tipo": "terrestre"},
+      {"destino": "Porto", "tipo": "aereo"},
+      {"destino": "Madeira", "tipo": "aereo"},
+      {"destino": "Madeira", "tipo": "aquatico"},
+      {"destino": "Acores", "tipo": "aereo"}
+    ]
+  },
+  {
+    "nome": "Porto",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": true,
+    "x": 41.161758,
+    "y": -8.583933,
+    "restricoes": ["aereo", "terrestre", "aquatico"],
+    "populacao": 1722000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Braga", "tipo": "terrestre"},
+      {"destino": "Aveiro", "tipo": "terrestre"},
+      {"destino": "VilaReal", "tipo": "terrestre"},
+      {"destino": "Lisboa", "tipo": "aereo"},
+      {"destino": "Madeira", "tipo": "aereo"},
+      {"destino": "Madeira", "tipo": "aquatico"},
+      {"destino": "Acores", "tipo": "aereo"},
+      {"destino": "Acores", "tipo": "aquatico"}
+    ]
+  },
+  {
+    "nome": "Setubal",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 38.5244, 
+    "y": -8.8882,
+    "restricoes": ["terrestre"],
+    "populacao": 829000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Lisboa", "tipo": "terrestre"},
+      {"destino": "Evora", "tipo": "terrestre"}
+    ]
+  },
+  {
+    "nome": "Braga",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 41.55032, 
+    "y": -8.42005,
+    "restricoes": ["terrestre"],
+    "populacao": 848000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Porto", "tipo": "terrestre"},
+      {"destino": "Viana do Castelo", "tipo": "terrestre"},
+      {"destino": "VilaReal", "tipo": "terrestre"}
+    ]
+  },
+  {
+    "nome": "Aveiro",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 40.64427, 
+    "y": -8.64554,
+    "restricoes": ["terrestre", "aquatico"],
+    "populacao": 713000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Porto", "tipo": "terrestre"},
+      {"destino": "Coimbra", "tipo": "terrestre"},
+      {"destino": "Viseu", "tipo": "terrestre"}
+    ]
+  },
+  {
+    "nome": "Faro",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 37.01937, 
+    "y": -7.93223,
+    "restricoes": ["aereo", "terrestre", "aquatico"],
+    "populacao": 451000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Porto", "tipo": "aereo"},
+      {"destino": "Beja", "tipo": "terrestre"},
+      {"destino": "Lisboa", "tipo": "aereo"},
+      {"destino": "Madeira", "tipo": "aereo"},
+      {"destino": "Acores", "tipo": "aereo"}
+    ]
+  },
+  {
+    "nome": "Coimbra",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 40.20564 , 
+    "y": -8.41955,
+    "restricoes": ["terrestre"],
+    "populacao": 429000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Aveiro", "tipo": "terrestre"},
+      {"destino": "Leiria", "tipo": "terrestre"},
+      {"destino": "Viseu", "tipo": "terrestre"}
+    ]
+  },
+  {
+    "nome": "Leiria",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 39.74362, 
+    "y": -8.80705,
+    "restricoes": ["terrestre"],
+    "populacao": 470000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Lisboa", "tipo": "terrestre"},
+      {"destino": "Coimbra", "tipo": "terrestre"},
+      {"destino": "Santarem", "tipo": "terrestre"}
+    ]
+  },
+  {
+    "nome": "Madeira",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 32.63333, 
+    "y": -16.9,
+    "restricoes": ["aereo", "aquatico"],
+    "populacao": 251000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Lisboa", "tipo": "aereo"},
+      {"destino": "Porto", "tipo": "aereo"},
+      {"destino": "Acores", "tipo": "aquatico"},
+      {"destino": "Acores", "tipo": "aereo"}
+    ]
+  },
+  {
+    "nome": "Acores",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 37.73333, 
+    "y": -25.66667,
+    "restricoes": ["aereo", "aquatico"],
+    "populacao": 137856,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Lisboa", "tipo": "aereo"},
+      {"destino": "Porto", "tipo": "aereo"},
+      {"destino": "Madeira", "tipo": "aquatico"},
+      {"destino": "Madeira", "tipo": "aereo"}
+
+    ]
+  },
+  {
+    "nome": "Beja",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 38.01506, 
+    "y": -7.86323,
+    "restricoes": ["aereo", "terrestre"],
+    "populacao": 152000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Evora", "tipo": "terrestre"},
+      {"destino": "Faro", "tipo": "terrestre"}
+    ]
+  },
+  {
+    "nome": "Braganca",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 41.80582, 
+    "y": -6.75719,
+    "restricoes": ["terrestre"],
+    "populacao": 136000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "VilaReal", "tipo": "terrestre"},
+      {"destino": "Guarda", "tipo": "terrestre"}
+    ]
+  },
+  {
+    "nome": "CasteloBranco",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 39.82219, 
+    "y": -7.49087,
+    "restricoes": ["terrestre"],
+    "populacao": 197000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Guarda", "tipo": "terrestre"},
+      {"destino": "Portalegre", "tipo": "terrestre"}
+    ]
+  },
+  {
+    "nome": "Evora",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 38.56667, 
+    "y": -7.9,
+    "restricoes": ["terrestre"],
+    "populacao": 166000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Setubal", "tipo": "terrestre"},
+      {"destino": "Beja", "tipo": "terrestre"}
+    ]
+  },
+  {
+    "nome": "Guarda",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 40.53733, 
+    "y": -7.26575,
+    "restricoes": ["terrestre"],
+    "populacao": 143000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "CasteloBranco", "tipo": "terrestre"},
+      {"destino": "Braganca", "tipo": "terrestre"}
+    ]
+  },
+  {
+    "nome": "Portalegre",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 39.317, 
+    "y": -7.417,
+    "restricoes": ["terrestre"],
+    "populacao": 118000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "CasteloBranco", "tipo": "terrestre"},
+      {"destino": "Santarem ", "tipo": "terrestre"}
+    ]
+  },
+  {
+    "nome": "Santarem",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 39.23333, 
+    "y": -8.68333,
+    "restricoes": ["terrestre"],
+    "populacao": 445000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Lisboa", "tipo": "terrestre"},
+      {"destino": "Leiria", "tipo": "terrestre"},
+      {"destino": "Portalegre", "tipo": "terrestre"}
+    ]
+  },
+  {
+    "nome": "VianaDoCastelo",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 41.6826204, 
+    "y": -8.6203933,
+    "restricoes": ["terrestre"],
+    "populacao": 252000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Braga", "tipo": "terrestre"},
+      {"destino": "VilaReal", "tipo": "terrestre"}
+
+    ]
+  },
+  {
+    "nome": "VilaReal",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 41.276111, 
+    "y": -7.475,
+    "restricoes": ["terrestre"],
+    "populacao": 193000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Porto", "tipo": "terrestre"},
+      {"destino": "Braga", "tipo": "terrestre"},
+      {"destino": "Braganca", "tipo": "terrestre"},
+      {"destino": "VianaDoCastelo", "tipo": "terrestre"}
+
+    ]
+  },
+  {
+    "nome": "Viseu",
+    "necessidade": null,
+    "gravidade": null,
+    "isBase": false,
+    "x": 40.66101, 
+    "y": -7.90971,
+    "restricoes": ["terrestre"],
+    "populacao": 378000,
+    "janela_tempo_critica": null,
+    "conexoes": [
+      {"destino": "Aveiro", "tipo": "terrestre"},
+      {"destino": "Coimbra", "tipo": "terrestre"}
+    ]
+  }
+]
